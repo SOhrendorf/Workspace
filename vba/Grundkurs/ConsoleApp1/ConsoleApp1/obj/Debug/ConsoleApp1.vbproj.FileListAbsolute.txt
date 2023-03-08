@@ -1,0 +1,11 @@
+C:\workspace\vba\Grundkurs\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\workspace\vba\Grundkurs\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\workspace\vba\Grundkurs\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\workspace\vba\Grundkurs\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.xml
+C:\workspace\vba\Grundkurs\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.vbprojAssemblyReference.cache
+C:\workspace\vba\Grundkurs\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.Resources.resources
+C:\workspace\vba\Grundkurs\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.vbproj.GenerateResource.cache
+C:\workspace\vba\Grundkurs\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.vbproj.CoreCompileInputs.cache
+C:\workspace\vba\Grundkurs\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\workspace\vba\Grundkurs\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.xml
+C:\workspace\vba\Grundkurs\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

@@ -1,0 +1,1 @@
+start "" "C:\workspace\python\otp.py"

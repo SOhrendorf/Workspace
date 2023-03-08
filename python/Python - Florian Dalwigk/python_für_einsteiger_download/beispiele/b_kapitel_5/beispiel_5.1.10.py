@@ -1,0 +1,5 @@
+a = "und"
+b = "welpe"
+"h" + a             # Ergibt "hund"
+"h" + a + "e" + b   # Ergibt "hundewelpe"
+b + "n"             # Ergibt "welpen"

@@ -1,0 +1,9 @@
+a = 12
+b = 3
+c = 7
+a % b # Ergibt 0, weil 12 : 3 = 4, Rest 0 ist.
+a % c # Ergibt 5, weil 12 : 7 = 1, Rest 5 ist.
+b % c # Ergibt 3, weil 3 : 7 = 0, Rest 3 ist.
+c % a # Ergibt 7, weil 7 : 12 = 0, Rest 7 ist.
+c % b # Ergibt 1, weil 7 : 3 = 2, Rest 1 ist.
+a % a # Ergibt 0, weil 12 : 12 = 1, Rest 0 ist.

@@ -1,0 +1,18 @@
+C:\workspace\vba\Grundkurs\ersterTest\Praktische Basisdinge\bin\Debug\net5.0-windows\Praktische Basisdinge.exe
+C:\workspace\vba\Grundkurs\ersterTest\Praktische Basisdinge\bin\Debug\net5.0-windows\Praktische Basisdinge.deps.json
+C:\workspace\vba\Grundkurs\ersterTest\Praktische Basisdinge\bin\Debug\net5.0-windows\Praktische Basisdinge.runtimeconfig.json
+C:\workspace\vba\Grundkurs\ersterTest\Praktische Basisdinge\bin\Debug\net5.0-windows\Praktische Basisdinge.runtimeconfig.dev.json
+C:\workspace\vba\Grundkurs\ersterTest\Praktische Basisdinge\bin\Debug\net5.0-windows\Praktische Basisdinge.dll
+C:\workspace\vba\Grundkurs\ersterTest\Praktische Basisdinge\bin\Debug\net5.0-windows\ref\Praktische Basisdinge.dll
+C:\workspace\vba\Grundkurs\ersterTest\Praktische Basisdinge\bin\Debug\net5.0-windows\Praktische Basisdinge.pdb
+C:\workspace\vba\Grundkurs\ersterTest\Praktische Basisdinge\obj\Debug\net5.0-windows\Praktische Basisdinge.vbprojAssemblyReference.cache
+C:\workspace\vba\Grundkurs\ersterTest\Praktische Basisdinge\obj\Debug\net5.0-windows\Praktische_Basisdinge.Form1.resources
+C:\workspace\vba\Grundkurs\ersterTest\Praktische Basisdinge\obj\Debug\net5.0-windows\Praktische Basisdinge.vbproj.GenerateResource.cache
+C:\workspace\vba\Grundkurs\ersterTest\Praktische Basisdinge\obj\Debug\net5.0-windows\Praktische Basisdinge.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\vba\Grundkurs\ersterTest\Praktische Basisdinge\obj\Debug\net5.0-windows\Praktische Basisdinge.AssemblyInfoInputs.cache
+C:\workspace\vba\Grundkurs\ersterTest\Praktische Basisdinge\obj\Debug\net5.0-windows\Praktische Basisdinge.AssemblyInfo.vb
+C:\workspace\vba\Grundkurs\ersterTest\Praktische Basisdinge\obj\Debug\net5.0-windows\Praktische Basisdinge.vbproj.CoreCompileInputs.cache
+C:\workspace\vba\Grundkurs\ersterTest\Praktische Basisdinge\obj\Debug\net5.0-windows\Praktische Basisdinge.dll
+C:\workspace\vba\Grundkurs\ersterTest\Praktische Basisdinge\obj\Debug\net5.0-windows\ref\Praktische Basisdinge.dll
+C:\workspace\vba\Grundkurs\ersterTest\Praktische Basisdinge\obj\Debug\net5.0-windows\Praktische Basisdinge.pdb
+C:\workspace\vba\Grundkurs\ersterTest\Praktische Basisdinge\obj\Debug\net5.0-windows\Praktische Basisdinge.genruntimeconfig.cache

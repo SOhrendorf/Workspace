@@ -1,0 +1,13 @@
+program p_client;
+
+uses
+  Forms,
+  m_client in 'm_client.pas' {chatclient};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(Tchatclient, chatclient);
+  Application.Run;
+end.

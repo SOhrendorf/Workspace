@@ -1,0 +1,4 @@
+auth_token:gEnntf1ygTGNOq0b2fxW8mpsLLdc1ymi
+Ip:192.168.178.68:16021
+
+ha-Bride starten: sudo systemctl start habridge.service

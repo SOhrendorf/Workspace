@@ -1,0 +1,2 @@
+PgDn::
+Send, {Click Left}

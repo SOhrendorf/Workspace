@@ -1,0 +1,17 @@
+C:\workspace\vba\Grundkurs\WpfApp1_testi\WpfApp1_testi\bin\Debug\WpfApp1_testi.exe.config
+C:\workspace\vba\Grundkurs\WpfApp1_testi\WpfApp1_testi\bin\Debug\WpfApp1_testi.exe
+C:\workspace\vba\Grundkurs\WpfApp1_testi\WpfApp1_testi\bin\Debug\WpfApp1_testi.pdb
+C:\workspace\vba\Grundkurs\WpfApp1_testi\WpfApp1_testi\bin\Debug\WpfApp1_testi.xml
+C:\workspace\vba\Grundkurs\WpfApp1_testi\WpfApp1_testi\obj\Debug\WpfApp1_testi.vbprojAssemblyReference.cache
+C:\workspace\vba\Grundkurs\WpfApp1_testi\WpfApp1_testi\obj\Debug\MainWindow.g.vb
+C:\workspace\vba\Grundkurs\WpfApp1_testi\WpfApp1_testi\obj\Debug\Application.g.vb
+C:\workspace\vba\Grundkurs\WpfApp1_testi\WpfApp1_testi\obj\Debug\WpfApp1_testi_MarkupCompile.cache
+C:\workspace\vba\Grundkurs\WpfApp1_testi\WpfApp1_testi\obj\Debug\WpfApp1_testi_MarkupCompile.lref
+C:\workspace\vba\Grundkurs\WpfApp1_testi\WpfApp1_testi\obj\Debug\MainWindow.baml
+C:\workspace\vba\Grundkurs\WpfApp1_testi\WpfApp1_testi\obj\Debug\WpfApp1_testi.g.resources
+C:\workspace\vba\Grundkurs\WpfApp1_testi\WpfApp1_testi\obj\Debug\WpfApp1_testi.Resources.resources
+C:\workspace\vba\Grundkurs\WpfApp1_testi\WpfApp1_testi\obj\Debug\WpfApp1_testi.vbproj.GenerateResource.cache
+C:\workspace\vba\Grundkurs\WpfApp1_testi\WpfApp1_testi\obj\Debug\WpfApp1_testi.vbproj.CoreCompileInputs.cache
+C:\workspace\vba\Grundkurs\WpfApp1_testi\WpfApp1_testi\obj\Debug\WpfApp1_testi.exe
+C:\workspace\vba\Grundkurs\WpfApp1_testi\WpfApp1_testi\obj\Debug\WpfApp1_testi.xml
+C:\workspace\vba\Grundkurs\WpfApp1_testi\WpfApp1_testi\obj\Debug\WpfApp1_testi.pdb

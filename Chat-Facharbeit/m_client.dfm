@@ -1,0 +1,132 @@
+object client: Tclient
+  Left = 641
+  Top = 200
+  Width = 731
+  Height = 575
+  AutoSize = True
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Delphi-Chat'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  OnActivate = FormActivate
+  OnClose = FormClose
+  DesignSize = (
+    715
+    537)
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 0
+    Top = 0
+    Width = 51
+    Height = 21
+    AutoSize = False
+    Caption = 'Nickname:'
+  end
+  object Label2: TLabel
+    Left = 0
+    Top = 24
+    Width = 57
+    Height = 25
+    AutoSize = False
+    Caption = 'IP-Adresse:'
+  end
+  object Label3: TLabel
+    Left = 0
+    Top = 48
+    Width = 22
+    Height = 13
+    Anchors = [akTop, akRight]
+    Caption = 'Port:'
+  end
+  object ed_nick: TEdit
+    Left = 56
+    Top = 0
+    Width = 121
+    Height = 21
+    TabOrder = 0
+    OnChange = ed_nickChange
+  end
+  object ed_ip: TEdit
+    Left = 56
+    Top = 24
+    Width = 121
+    Height = 21
+    TabOrder = 1
+    Text = 'localhost'
+    OnChange = ed_ipChange
+  end
+  object bt_connect: TButton
+    Left = 8
+    Top = 80
+    Width = 75
+    Height = 25
+    Caption = 'Verbinden'
+    TabOrder = 3
+    OnClick = bt_connectClick
+  end
+  object bt_send: TButton
+    Left = 640
+    Top = 488
+    Width = 75
+    Height = 17
+    Caption = 'Senden'
+    Enabled = False
+    TabOrder = 5
+    OnClick = bt_sendClick
+  end
+  object me_chat: TMemo
+    Left = 184
+    Top = 0
+    Width = 530
+    Height = 473
+    TabStop = False
+    ReadOnly = True
+    ScrollBars = ssVertical
+    TabOrder = 7
+  end
+  object me_send: TMemo
+    Left = 184
+    Top = 488
+    Width = 441
+    Height = 49
+    TabOrder = 4
+    OnKeyDown = me_sendKeyDown
+  end
+  object ed_port: TEdit
+    Left = 56
+    Top = 48
+    Width = 121
+    Height = 21
+    TabOrder = 2
+    Text = '7777'
+    OnChange = ed_portChange
+  end
+  object CheckBox1: TCheckBox
+    Left = 640
+    Top = 512
+    Width = 73
+    Height = 17
+    Caption = 'Mit Enter'
+    Checked = True
+    State = cbChecked
+    TabOrder = 6
+  end
+  object ClientSocket1: TClientSocket
+    Active = False
+    ClientType = ctNonBlocking
+    Port = 7777
+    OnConnecting = ClientSocket1Connecting
+    OnConnect = ClientSocket1Connect
+    OnDisconnect = ClientSocket1Disconnect
+    OnRead = ClientSocket1Read
+    OnError = ClientSocket1Error
+    Left = 120
+    Top = 80
+  end
+end

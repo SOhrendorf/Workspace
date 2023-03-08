@@ -1,0 +1,13 @@
+program p_server;
+
+uses
+  Forms,
+  m_server in 'm_server.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

@@ -1,0 +1,35 @@
+body {
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+table{
+	margin-right: auto;
+	margin-left: auto;
+	table-layout: fixed;
+	width: 70%;
+  }
+  
+  #tb1 {
+	border: 1px line black;
+	border-collapse: collapse;
+	background-color:blanchedalmond;
+  }
+
+  #Bild:hover{
+	width: 190px;
+    height: 200px;   
+    transition: 2s ease-in-out;
+  }
+  
+  th, td {
+	border: 1px solid black;
+	border-radius: 1px;
+  }
+
+  label{
+
+	padding-left:26px;
+    width:125px;
+	display: inline-block;
+  }

@@ -1,0 +1,130 @@
+[0m2021.03.09 08:20:31 INFO  Started: Metals version 0.10.0 in workspace 'C:\workspace\scala' for client vscode 1.53.2.[0m
+[0m2021.03.09 08:20:34 INFO  time: initialize in 3.58s[0m
+[0m2021.03.09 08:20:35 WARN  Build server is not auto-connectable.[0m
+[0m2021.03.09 08:20:35 WARN  no build tool detected in workspace 'C:\workspace\scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.03.09 08:20:35 WARN  no build target for: C:\workspace\scala\HelloWorld.scala[0m
+[0m2021.03.09 08:20:47 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+
+
+[0m2021.03.09 08:20:50 INFO  time: code lens generation in 1.48s[0m
+
+
+[0m2021.03.09 08:20:50 INFO  time: code lens generation in 13s[0m
+
+
+
+
+
+[0m2021.03.09 08:21:56 INFO  [0m
+[0m2021.03.09 08:21:56 INFO  Template applied in C:\workspace\scala\.\hello-world[0m
+[0m2021.03.09 08:21:56 INFO  [0m
+[0m2021.03.09 08:21:56 INFO  giter8.Giter8 exit: 0[0m
+[0m2021.03.09 08:21:56 INFO  time: ran 'giter8.Giter8' in 9.22s[0m
+[0m2021.03.09 08:30:25 WARN  no build target for: C:\workspace\scala\HelloWorld.scala[0m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+something's wrong: no file:///C:/workspace/scala/HelloWorld.scala in Array[<error>]RangePosition(file:///C:/workspace/scala/HelloWorld.scala, 39, 39, 54)
+something's wrong: no file:///C:/workspace/scala/HelloWorld.scala in Array[<error>]RangePosition(file:///C:/workspace/scala/HelloWorld.scala, 39, 39, 50)
+
+[0m2021.03.09 08:31:06 INFO  time: code lens generation in 2.05s[0m
+
+
+[0m2021.03.09 08:31:06 INFO  time: code lens generation in 1.12s[0m
+something's wrong: no file:///C:/workspace/scala/HelloWorld.scala in Array[<error>]RangePosition(file:///C:/workspace/scala/HelloWorld.scala, 39, 39, 51)
+März 09, 2021 8:31:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.reflect.internal.Symbols$CyclicReference: illegal cyclic reference involving object HelloWorld
+java.util.concurrent.CompletionException: scala.reflect.internal.Symbols$CyclicReference: illegal cyclic reference involving object HelloWorld
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2144)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:42)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: scala.reflect.internal.Symbols$CyclicReference: illegal cyclic reference involving object HelloWorld
+
+
+something's wrong: no file:///C:/workspace/scala/HelloWorld.scala in Array[String]RangePosition(file:///C:/workspace/scala/HelloWorld.scala, 39, 39, 52)
+
+something's wrong: no file:///C:/workspace/scala/HelloWorld.scala in Array[String]RangePosition(file:///C:/workspace/scala/HelloWorld.scala, 39, 39, 52)
+
+something's wrong: no file:///C:/workspace/scala/HelloWorld.scala in Array[String]RangePosition(file:///C:/workspace/scala/HelloWorld.scala, 39, 39, 52)
+
+
+
+
+
+
+
+
+
+[0m2021.03.09 08:31:32 INFO  time: code lens generation in 1.29s[0m
+
+
+
+
+[0m2021.03.09 08:31:37 WARN  no build target for: C:\workspace\scala\HelloWorld.scala[0m
+object HelloWorld{
+    def main(args: Array[String])
+    {
+        println("Ich lebe, juhu!!")
+    }
+}
+[0m2021.03.09 08:33:19 INFO  shutting down Metals[0m
+[0m2021.03.09 08:36:28 INFO  Started: Metals version 0.10.0 in workspace 'C:\workspace\scala' for client vscode 1.54.1.[0m
+[0m2021.03.09 08:36:31 INFO  time: initialize in 3.25s[0m
+[0m2021.03.09 08:36:32 WARN  Build server is not auto-connectable.[0m
+[0m2021.03.09 08:36:32 WARN  no build tool detected in workspace 'C:\workspace\scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.03.09 08:36:32 WARN  no build target for: C:\workspace\scala\HelloWorld.scala[0m
+[0m2021.03.09 08:36:42 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+object HelloWorld{
+    def main(args: Array[String])
+    {
+        println("Ich lebe, juhu!!")
+    }
+}
+object HelloWorld{
+    def main(args: Array[String])
+    {
+        println("Ich lebe, juhu!!")
+    }
+}
+object HelloWorld{
+    def main(args: Array[String])
+    {
+        println("Ich lebe, juhu!!")
+    }
+}
+[0m2021.03.09 08:36:45 INFO  time: code lens generation in 12s[0m
+[0m2021.03.09 08:37:39 INFO  Attempting to connect to the build server...[0m
+[0m2021.03.09 08:37:39 INFO  No build server found[0m
+[0m2021.03.09 08:37:39 INFO  time: Connected to build server in 14ms[0m
+[0m2021.03.09 08:37:39 WARN  no build target for: C:\workspace\scala\HelloWorld.scala[0m
+[0m2021.03.09 08:38:04 INFO  shutting down Metals[0m

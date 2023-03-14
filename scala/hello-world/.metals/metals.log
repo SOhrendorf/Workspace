@@ -1,0 +1,2008 @@
+[0m2021.03.09 08:22:26 INFO  Started: Metals version 0.10.0 in workspace 'C:\workspace\scala\hello-world' for client vscode 1.53.2.[0m
+[0m2021.03.09 08:22:29 INFO  time: initialize in 3.81s[0m
+[0m2021.03.09 08:22:31 WARN  Build server is not auto-connectable.[0m
+[0m2021.03.09 08:22:31 WARN  no build target for: C:\workspace\scala\hello-world\src\main\scala\Main.scala[0m
+[0m2021.03.09 08:22:40 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+object Main extends App {
+  println("Hello, World!")
+}
+object Main extends App {
+  println("Hello, World!")
+}
+object Main extends App {
+  println("Hello, World!")
+}
+[0m2021.03.09 08:22:44 INFO  time: code lens generation in 11s[0m
+[0m2021.03.09 08:22:45 INFO  running 'C:\Program Files\Java\jdk-13.0.2\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\sohre\AppData\Local\Temp\metals4358151796966919335\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.03.09 08:22:46 ERROR [info] [launcher] getting org.scala-sbt sbt 1.4.7  (this may take some time)...[0m
+[0m2021.03.09 08:23:24 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/sbt/1.4.7/sbt-1.4.7.jar ...[0m
+[0m2021.03.09 08:23:24 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.4.0/io_2.12-1.4.0.jar ...[0m
+[0m2021.03.09 08:23:24 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.4.7/main_2.12-1.4.7.jar ...[0m
+[0m2021.03.09 08:23:24 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12.jar ...[0m
+[0m2021.03.09 08:23:24 ERROR :: loading settings :: url = jar:file:/C:/Users/sohre/AppData/Local/Temp/metals4358151796966919335/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.03.09 08:23:24 ERROR :: loading settings :: url = jar:file:/C:/Users/sohre/AppData/Local/Temp/metals4358151796966919335/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.03.09 08:23:24 ERROR :: loading settings :: url = jar:file:/C:/Users/sohre/AppData/Local/Temp/metals4358151796966919335/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.03.09 08:23:24 ERROR :: loading settings :: url = jar:file:/C:/Users/sohre/AppData/Local/Temp/metals4358151796966919335/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.03.09 08:23:24 ERROR 	[SUCCESSFUL ] org.scala-sbt#sbt;1.4.7!sbt.jar (416ms)[0m
+[0m2021.03.09 08:23:24 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.4.7/logic_2.12-1.4.7.jar ...[0m
+[0m2021.03.09 08:23:24 ERROR 	[SUCCESSFUL ] org.scala-sbt#io_2.12;1.4.0!io_2.12.jar (420ms)[0m
+[0m2021.03.09 08:23:24 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.4.7/actions_2.12-1.4.7.jar ...[0m
+[0m2021.03.09 08:23:24 ERROR 	[SUCCESSFUL ] org.scala-sbt#logic_2.12;1.4.7!logic_2.12.jar (322ms)[0m
+[0m2021.03.09 08:23:24 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.4.7/main-settings_2.12-1.4.7.jar ...[0m
+[0m2021.03.09 08:23:24 ERROR 	[SUCCESSFUL ] org.scala-sbt#actions_2.12;1.4.7!actions_2.12.jar (507ms)[0m
+[0m2021.03.09 08:23:24 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/run_2.12/1.4.7/run_2.12-1.4.7.jar ...[0m
+[0m2021.03.09 08:23:25 ERROR 	[SUCCESSFUL ] org.scala-sbt#run_2.12;1.4.7!run_2.12.jar (334ms)[0m
+[0m2021.03.09 08:23:25 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/command_2.12/1.4.7/command_2.12-1.4.7.jar ...[0m
+[0m2021.03.09 08:23:25 ERROR 	[SUCCESSFUL ] org.scala-sbt#main-settings_2.12;1.4.7!main-settings_2.12.jar (550ms)[0m
+[0m2021.03.09 08:23:25 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.4.7/collections_2.12-1.4.7.jar ...[0m
+[0m2021.03.09 08:23:25 ERROR 	[SUCCESSFUL ] org.scala-sbt#main_2.12;1.4.7!main_2.12.jar (1290ms)[0m
+[0m2021.03.09 08:23:25 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/scripted-plugin_2.12/1.4.7/scripted-plugin_2.12-1.4.7.jar ...[0m
+[0m2021.03.09 08:23:25 ERROR 	[SUCCESSFUL ] org.scala-sbt#scripted-plugin_2.12;1.4.7!scripted-plugin_2.12.jar (202ms)[0m
+[0m2021.03.09 08:23:25 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-lm-integration_2.12/1.4.7/zinc-lm-integration_2.12-1.4.7.jar ...[0m
+[0m2021.03.09 08:23:25 ERROR 	[SUCCESSFUL ] org.scala-sbt#command_2.12;1.4.7!command_2.12.jar (289ms)[0m
+[0m2021.03.09 08:23:25 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.4.7/util-logging_2.12-1.4.7.jar ...[0m
+[0m2021.03.09 08:23:25 ERROR 	[SUCCESSFUL ] org.scala-sbt#collections_2.12;1.4.7!collections_2.12.jar (306ms)[0m
+[0m2021.03.09 08:23:25 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.3.0/scala-xml_2.12-1.3.0.jar ...[0m
+[0m2021.03.09 08:23:25 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-lm-integration_2.12;1.4.7!zinc-lm-integration_2.12.jar (293ms)[0m
+[0m2021.03.09 08:23:25 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.1.6/launcher-interface-1.1.6.jar ...[0m
+[0m2021.03.09 08:23:25 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-logging_2.12;1.4.7!util-logging_2.12.jar (392ms)[0m
+[0m2021.03.09 08:23:25 ERROR downloading https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.8.5/caffeine-2.8.5.jar ...[0m
+[0m2021.03.09 08:23:25 ERROR 	[SUCCESSFUL ] org.scala-sbt#launcher-interface;1.1.6!launcher-interface.jar (182ms)[0m
+[0m2021.03.09 08:23:25 ERROR downloading https://repo1.maven.org/maven2/io/get-coursier/lm-coursier-shaded_2.12/2.0.6/lm-coursier-shaded_2.12-2.0.6.jar ...[0m
+[0m2021.03.09 08:23:25 ERROR 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.3.0!scala-xml_2.12.jar(bundle) (511ms)[0m
+[0m2021.03.09 08:23:25 ERROR downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar ...[0m
+[0m2021.03.09 08:23:27 ERROR 	[SUCCESSFUL ] com.github.ben-manes.caffeine#caffeine;2.8.5!caffeine.jar (678ms)[0m
+[0m2021.03.09 08:23:27 ERROR downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar ...[0m
+[0m2021.03.09 08:23:27 ERROR 	[SUCCESSFUL ] org.apache.logging.log4j#log4j-api;2.11.2!log4j-api.jar (1371ms)[0m
+[0m2021.03.09 08:23:27 ERROR downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.11.2/log4j-slf4j-impl-2.11.2.jar ...[0m
+[0m2021.03.09 08:23:27 ERROR 	[SUCCESSFUL ] org.apache.logging.log4j#log4j-core;2.11.2!log4j-core.jar (902ms)[0m
+[0m2021.03.09 08:23:27 ERROR downloading https://repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.6/file-tree-views-2.1.6.jar ...[0m
+[0m2021.03.09 08:23:28 ERROR 	[SUCCESSFUL ] org.apache.logging.log4j#log4j-slf4j-impl;2.11.2!log4j-slf4j-impl.jar (221ms)[0m
+[0m2021.03.09 08:23:28 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.4.3/librarymanagement-core_2.12-1.4.3.jar ...[0m
+[0m2021.03.09 08:23:28 ERROR 	[SUCCESSFUL ] com.swoval#file-tree-views;2.1.6!file-tree-views.jar (384ms)[0m
+[0m2021.03.09 08:23:28 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.4.3/librarymanagement-ivy_2.12-1.4.3.jar ...[0m
+[0m2021.03.09 08:23:28 ERROR 	[SUCCESSFUL ] org.scala-sbt#librarymanagement-ivy_2.12;1.4.3!librarymanagement-ivy_2.12.jar (582ms)[0m
+[0m2021.03.09 08:23:28 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.4.4/compiler-interface-1.4.4.jar ...[0m
+[0m2021.03.09 08:23:28 ERROR 	[SUCCESSFUL ] org.scala-sbt#librarymanagement-core_2.12;1.4.3!librarymanagement-core_2.12.jar (947ms)[0m
+[0m2021.03.09 08:23:28 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile_2.12/1.4.4/zinc-compile_2.12-1.4.4.jar ...[0m
+[0m2021.03.09 08:23:29 ERROR 	[SUCCESSFUL ] org.scala-sbt#compiler-interface;1.4.4!compiler-interface.jar (259ms)[0m
+[0m2021.03.09 08:23:29 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.4.7/util-relation_2.12-1.4.7.jar ...[0m
+[0m2021.03.09 08:23:29 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-compile_2.12;1.4.4!zinc-compile_2.12.jar (189ms)[0m
+[0m2021.03.09 08:23:29 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.4.7/util-position_2.12-1.4.7.jar ...[0m
+[0m2021.03.09 08:23:29 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-relation_2.12;1.4.7!util-relation_2.12.jar (313ms)[0m
+[0m2021.03.09 08:23:29 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-scalajson_2.12/0.9.1/sjson-new-scalajson_2.12-0.9.1.jar ...[0m
+[0m2021.03.09 08:23:29 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-position_2.12;1.4.7!util-position_2.12.jar (304ms)[0m
+[0m2021.03.09 08:23:29 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.12/scala-reflect-2.12.12.jar ...[0m
+[0m2021.03.09 08:23:29 ERROR 	[SUCCESSFUL ] com.eed3si9n#sjson-new-scalajson_2.12;0.9.1!sjson-new-scalajson_2.12.jar (325ms)[0m
+[0m2021.03.09 08:23:29 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.9.1/sjson-new-core_2.12-0.9.1.jar ...[0m
+[0m2021.03.09 08:23:31 ERROR 	[SUCCESSFUL ] io.get-coursier#lm-coursier-shaded_2.12;2.0.6!lm-coursier-shaded_2.12.jar (4379ms)[0m
+[0m2021.03.09 08:23:31 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/shaded-jawn-parser_2.12/0.9.1/shaded-jawn-parser_2.12-0.9.1.jar ...[0m
+[0m2021.03.09 08:23:31 ERROR 	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.12!scala-library.jar (6442ms)[0m
+[0m2021.03.09 08:23:31 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/shaded-scalajson_2.12/1.0.0-M4/shaded-scalajson_2.12-1.0.0-M4.jar ...[0m
+[0m2021.03.09 08:23:31 ERROR 	[SUCCESSFUL ] com.eed3si9n#sjson-new-core_2.12;0.9.1!sjson-new-core_2.12.jar (1093ms)[0m
+[0m2021.03.09 08:23:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/completion_2.12/1.4.7/completion_2.12-1.4.7.jar ...[0m
+[0m2021.03.09 08:23:31 ERROR 	[SUCCESSFUL ] com.eed3si9n#shaded-scalajson_2.12;1.0.0-M4!shaded-scalajson_2.12.jar (125ms)[0m
+[0m2021.03.09 08:23:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/task-system_2.12/1.4.7/task-system_2.12-1.4.7.jar ...[0m
+[0m2021.03.09 08:23:31 ERROR 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.12!scala-reflect.jar (1438ms)[0m
+[0m2021.03.09 08:23:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/tasks_2.12/1.4.7/tasks_2.12-1.4.7.jar ...[0m
+[0m2021.03.09 08:23:31 ERROR 	[SUCCESSFUL ] com.eed3si9n#shaded-jawn-parser_2.12;0.9.1!shaded-jawn-parser_2.12.jar (219ms)[0m
+[0m2021.03.09 08:23:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/testing_2.12/1.4.7/testing_2.12-1.4.7.jar ...[0m
+[0m2021.03.09 08:23:31 ERROR 	[SUCCESSFUL ] org.scala-sbt#completion_2.12;1.4.7!completion_2.12.jar (199ms)[0m
+[0m2021.03.09 08:23:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-tracking_2.12/1.4.7/util-tracking_2.12-1.4.7.jar ...[0m
+[0m2021.03.09 08:23:31 ERROR 	[SUCCESSFUL ] org.scala-sbt#task-system_2.12;1.4.7!task-system_2.12.jar (130ms)[0m
+[0m2021.03.09 08:23:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/jline3/jline-terminal/3.16.0-sbt-211a082ed6326908dc84ca017ce4430728f18a8a/jline-terminal-3.16.0-sbt-211a082ed6326908dc84ca017ce4430728f18a8a.jar ...[0m
+[0m2021.03.09 08:23:31 ERROR 	[SUCCESSFUL ] org.scala-sbt#tasks_2.12;1.4.7!tasks_2.12.jar (130ms)[0m
+[0m2021.03.09 08:23:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.4.4/zinc-classpath_2.12-1.4.4.jar ...[0m
+[0m2021.03.09 08:23:31 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-tracking_2.12;1.4.7!util-tracking_2.12.jar (161ms)[0m
+[0m2021.03.09 08:23:31 ERROR 	[SUCCESSFUL ] org.scala-sbt#testing_2.12;1.4.7!testing_2.12.jar (245ms)[0m
+[0m2021.03.09 08:23:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.4.4/zinc-apiinfo_2.12-1.4.4.jar ...[0m
+[0m2021.03.09 08:23:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.4.4/zinc_2.12-1.4.4.jar ...[0m
+[0m2021.03.09 08:23:31 ERROR 	[SUCCESSFUL ] org.scala-sbt.jline3#jline-terminal;3.16.0-sbt-211a082ed6326908dc84ca017ce4430728f18a8a!jline-terminal.jar (166ms)[0m
+[0m2021.03.09 08:23:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.4.7/util-control_2.12-1.4.7.jar ...[0m
+[0m2021.03.09 08:23:31 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-classpath_2.12;1.4.4!zinc-classpath_2.12.jar (163ms)[0m
+[0m2021.03.09 08:23:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/jline/jline/2.14.7-sbt-5e51b9d4f9631ebfa29753ce4accc57808e7fd6b/jline-2.14.7-sbt-5e51b9d4f9631ebfa29753ce4accc57808e7fd6b.jar ...[0m
+[0m2021.03.09 08:23:31 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-apiinfo_2.12;1.4.4!zinc-apiinfo_2.12.jar (198ms)[0m
+[0m2021.03.09 08:23:31 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-control_2.12;1.4.7!util-control_2.12.jar (188ms)[0m
+[0m2021.03.09 08:23:31 ERROR downloading https://repo1.maven.org/maven2/org/jline/jline-reader/3.16.0/jline-reader-3.16.0.jar ...[0m
+[0m2021.03.09 08:23:31 ERROR downloading https://repo1.maven.org/maven2/org/jline/jline-builtins/3.16.0/jline-builtins-3.16.0.jar ...[0m
+[0m2021.03.09 08:23:31 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc_2.12;1.4.4!zinc_2.12.jar (206ms)[0m
+[0m2021.03.09 08:23:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.4.7/util-interface-1.4.7.jar ...[0m
+[0m2021.03.09 08:23:31 ERROR 	[SUCCESSFUL ] org.scala-sbt.jline#jline;2.14.7-sbt-5e51b9d4f9631ebfa29753ce4accc57808e7fd6b!jline.jar (208ms)[0m
+[0m2021.03.09 08:23:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.4.7/core-macros_2.12-1.4.7.jar ...[0m
+[0m2021.03.09 08:23:31 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-interface;1.4.7!util-interface.jar (111ms)[0m
+[0m2021.03.09 08:23:31 ERROR downloading https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.16.0/jline-terminal-jna-3.16.0.jar ...[0m
+[0m2021.03.09 08:23:31 ERROR 	[SUCCESSFUL ] org.jline#jline-reader;3.16.0!jline-reader.jar (140ms)[0m
+[0m2021.03.09 08:23:31 ERROR downloading https://repo1.maven.org/maven2/org/jline/jline-terminal-jansi/3.16.0/jline-terminal-jansi-3.16.0.jar ...[0m
+[0m2021.03.09 08:23:31 ERROR 	[SUCCESSFUL ] org.scala-sbt#core-macros_2.12;1.4.7!core-macros_2.12.jar (146ms)[0m
+[0m2021.03.09 08:23:31 ERROR downloading https://repo1.maven.org/maven2/com/lmax/disruptor/3.4.2/disruptor-3.4.2.jar ...[0m
+[0m2021.03.09 08:23:31 ERROR 	[SUCCESSFUL ] org.jline#jline-terminal-jna;3.16.0!jline-terminal-jna.jar (102ms)[0m
+[0m2021.03.09 08:23:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.12/scala-compiler-2.12.12.jar ...[0m
+[0m2021.03.09 08:23:31 ERROR 	[SUCCESSFUL ] org.jline#jline-terminal-jansi;3.16.0!jline-terminal-jansi.jar (97ms)[0m
+[0m2021.03.09 08:23:31 ERROR downloading https://repo1.maven.org/maven2/org/jline/jline-terminal/3.16.0/jline-terminal-3.16.0.jar ...[0m
+[0m2021.03.09 08:23:31 ERROR 	[SUCCESSFUL ] org.jline#jline-builtins;3.16.0!jline-builtins.jar (242ms)[0m
+[0m2021.03.09 08:23:31 ERROR downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.18/jansi-1.18.jar ...[0m
+[0m2021.03.09 08:23:31 ERROR 	[SUCCESSFUL ] com.lmax#disruptor;3.4.2!disruptor.jar (107ms)[0m
+[0m2021.03.09 08:23:31 ERROR downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.5.0/jna-5.5.0.jar ...[0m
+[0m2021.03.09 08:23:32 ERROR 	[SUCCESSFUL ] org.jline#jline-terminal;3.16.0!jline-terminal.jar (262ms)[0m
+[0m2021.03.09 08:23:32 ERROR downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.5.0/jna-platform-5.5.0.jar ...[0m
+[0m2021.03.09 08:23:32 ERROR 	[SUCCESSFUL ] org.fusesource.jansi#jansi;1.18!jansi.jar (288ms)[0m
+[0m2021.03.09 08:23:32 ERROR downloading https://repo1.maven.org/maven2/org/jline/jline-style/3.16.0/jline-style-3.16.0.jar ...[0m
+[0m2021.03.09 08:23:32 ERROR 	[SUCCESSFUL ] org.jline#jline-style;3.16.0!jline-style.jar (333ms)[0m
+[0m2021.03.09 08:23:32 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.4.7/util-cache_2.12-1.4.7.jar ...[0m
+[0m2021.03.09 08:23:32 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-cache_2.12;1.4.7!util-cache_2.12.jar (512ms)[0m
+[0m2021.03.09 08:23:32 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-murmurhash_2.12/0.9.1/sjson-new-murmurhash_2.12-0.9.1.jar ...[0m
+[0m2021.03.09 08:23:33 ERROR 	[SUCCESSFUL ] com.eed3si9n#sjson-new-murmurhash_2.12;0.9.1!sjson-new-murmurhash_2.12.jar (289ms)[0m
+[0m2021.03.09 08:23:33 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.4.7/test-agent-1.4.7.jar ...[0m
+[0m2021.03.09 08:23:33 ERROR 	[SUCCESSFUL ] net.java.dev.jna#jna-platform;5.5.0!jna-platform.jar (1267ms)[0m
+[0m2021.03.09 08:23:33 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar ...[0m
+[0m2021.03.09 08:23:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#test-agent;1.4.7!test-agent.jar (223ms)[0m
+[0m2021.03.09 08:23:33 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.4.4/compiler-bridge_2.12-1.4.4.jar ...[0m
+[0m2021.03.09 08:23:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#test-interface;1.0!test-interface.jar (292ms)[0m
+[0m2021.03.09 08:23:33 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.4.4/zinc-classfile_2.12-1.4.4.jar ...[0m
+[0m2021.03.09 08:23:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#compiler-bridge_2.12;1.4.4!compiler-bridge_2.12.jar (343ms)[0m
+[0m2021.03.09 08:23:33 ERROR downloading https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54.jar ...[0m
+[0m2021.03.09 08:23:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-classfile_2.12;1.4.4!zinc-classfile_2.12.jar (216ms)[0m
+[0m2021.03.09 08:23:33 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-okhttp_2.12/0.5.0/gigahorse-okhttp_2.12-0.5.0.jar ...[0m
+[0m2021.03.09 08:23:33 ERROR 	[SUCCESSFUL ] net.java.dev.jna#jna;5.5.0!jna.jar (2065ms)[0m
+[0m2021.03.09 08:23:33 ERROR downloading https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp-urlconnection/3.7.0/okhttp-urlconnection-3.7.0.jar ...[0m
+[0m2021.03.09 08:23:33 ERROR 	[SUCCESSFUL ] com.eed3si9n#gigahorse-okhttp_2.12;0.5.0!gigahorse-okhttp_2.12.jar (198ms)[0m
+[0m2021.03.09 08:23:33 ERROR downloading https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.5.0/gigahorse-core_2.12-0.5.0.jar ...[0m
+[0m2021.03.09 08:23:33 ERROR 	[SUCCESSFUL ] com.squareup.okhttp3#okhttp-urlconnection;3.7.0!okhttp-urlconnection.jar (152ms)[0m
+[0m2021.03.09 08:23:33 ERROR downloading https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.14.2/okhttp-3.14.2.jar ...[0m
+[0m2021.03.09 08:23:33 ERROR 	[SUCCESSFUL ] com.jcraft#jsch;0.1.54!jsch.jar (274ms)[0m
+[0m2021.03.09 08:23:33 ERROR downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.4.0/ssl-config-core_2.12-0.4.0.jar ...[0m
+[0m2021.03.09 08:23:34 ERROR 	[SUCCESSFUL ] com.eed3si9n#gigahorse-core_2.12;0.5.0!gigahorse-core_2.12.jar (269ms)[0m
+[0m2021.03.09 08:23:34 ERROR downloading https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar ...[0m
+[0m2021.03.09 08:23:34 ERROR 	[SUCCESSFUL ] com.typesafe#ssl-config-core_2.12;0.4.0!ssl-config-core_2.12.jar(bundle) (329ms)[0m
+[0m2021.03.09 08:23:34 ERROR downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar ...[0m
+[0m2021.03.09 08:23:34 ERROR 	[SUCCESSFUL ] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar (221ms)[0m
+[0m2021.03.09 08:23:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar ...[0m
+[0m2021.03.09 08:23:34 ERROR 	[SUCCESSFUL ] com.squareup.okhttp3#okhttp;3.14.2!okhttp.jar (508ms)[0m
+[0m2021.03.09 08:23:34 ERROR downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3.jar ...[0m
+[0m2021.03.09 08:23:34 ERROR 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.26!slf4j-api.jar (208ms)[0m
+[0m2021.03.09 08:23:34 ERROR downloading https://repo1.maven.org/maven2/com/squareup/okio/okio/1.17.2/okio-1.17.2.jar ...[0m
+[0m2021.03.09 08:23:34 ERROR 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.2!scala-parser-combinators_2.12.jar(bundle) (294ms)[0m
+[0m2021.03.09 08:23:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.4.4/zinc-core_2.12-1.4.4.jar ...[0m
+[0m2021.03.09 08:23:34 ERROR 	[SUCCESSFUL ] com.squareup.okio#okio;1.17.2!okio.jar (228ms)[0m
+[0m2021.03.09 08:23:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.4.4/zinc-persist_2.12-1.4.4.jar ...[0m
+[0m2021.03.09 08:23:34 ERROR 	[SUCCESSFUL ] com.typesafe#config;1.3.3!config.jar(bundle) (571ms)[0m
+[0m2021.03.09 08:23:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.4.4/zinc-compile-core_2.12-1.4.4.jar ...[0m
+[0m2021.03.09 08:23:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-core_2.12;1.4.4!zinc-core_2.12.jar (338ms)[0m
+[0m2021.03.09 08:23:34 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.4.4/zinc-persist-core-assembly-1.4.4.jar ...[0m
+[0m2021.03.09 08:23:34 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-persist_2.12;1.4.4!zinc-persist_2.12.jar (340ms)[0m
+[0m2021.03.09 08:23:34 ERROR downloading https://repo1.maven.org/maven2/net/openhft/zero-allocation-hashing/0.10.1/zero-allocation-hashing-0.10.1.jar ...[0m
+[0m2021.03.09 08:23:35 ERROR 	[SUCCESSFUL ] net.openhft#zero-allocation-hashing;0.10.1!zero-allocation-hashing.jar(bundle) (461ms)[0m
+[0m2021.03.09 08:23:35 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.5.1/sbinary_2.12-0.5.1.jar ...[0m
+[0m2021.03.09 08:23:35 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-compile-core_2.12;1.4.4!zinc-compile-core_2.12.jar (686ms)[0m
+[0m2021.03.09 08:23:35 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/protocol_2.12/1.4.7/protocol_2.12-1.4.7.jar ...[0m
+[0m2021.03.09 08:23:35 ERROR 	[SUCCESSFUL ] org.scala-sbt#sbinary_2.12;0.5.1!sbinary_2.12.jar (507ms)[0m
+[0m2021.03.09 08:23:35 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/template-resolver/0.1/template-resolver-0.1.jar ...[0m
+[0m2021.03.09 08:23:35 ERROR 	[SUCCESSFUL ] org.scala-sbt#template-resolver;0.1!template-resolver.jar (272ms)[0m
+[0m2021.03.09 08:23:35 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/ipcsocket/ipcsocket/1.3.0/ipcsocket-1.3.0.jar ...[0m
+[0m2021.03.09 08:23:35 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-persist-core-assembly;1.4.4!zinc-persist-core-assembly.jar (1277ms)[0m
+[0m2021.03.09 08:23:35 ERROR downloading https://repo1.maven.org/maven2/org/checkerframework/checker-qual/3.4.1/checker-qual-3.4.1.jar ...[0m
+[0m2021.03.09 08:23:35 ERROR 	[SUCCESSFUL ] org.scala-sbt#protocol_2.12;1.4.7!protocol_2.12.jar (763ms)[0m
+[0m2021.03.09 08:23:35 ERROR downloading https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.4.0/error_prone_annotations-2.4.0.jar ...[0m
+[0m2021.03.09 08:23:36 ERROR 	[SUCCESSFUL ] org.checkerframework#checker-qual;3.4.1!checker-qual.jar (235ms)[0m
+[0m2021.03.09 08:23:36 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.3.2/scala-collection-compat_2.12-2.3.2.jar ...[0m
+[0m2021.03.09 08:23:36 ERROR 	[SUCCESSFUL ] org.scala-sbt.ipcsocket#ipcsocket;1.3.0!ipcsocket.jar (262ms)[0m
+[0m2021.03.09 08:23:36 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745/ivy-2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745.jar ...[0m
+[0m2021.03.09 08:23:36 ERROR 	[SUCCESSFUL ] com.google.errorprone#error_prone_annotations;2.4.0!error_prone_annotations.jar (103ms)[0m
+[0m2021.03.09 08:23:36 ERROR 	[SUCCESSFUL ] org.scala-lang.modules#scala-collection-compat_2.12;2.3.2!scala-collection-compat_2.12.jar (428ms)[0m
+[0m2021.03.09 08:23:36 ERROR 	[SUCCESSFUL ] org.scala-sbt.ivy#ivy;2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745!ivy.jar (607ms)[0m
+[0m2021.03.09 08:23:36 ERROR 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.12!scala-compiler.jar (5783ms)[0m
+[0m2021.03.09 08:23:36 ERROR :: retrieving :: org.scala-sbt#boot-app[0m
+[0m2021.03.09 08:23:36 ERROR 	confs: [default][0m
+[0m2021.03.09 08:23:38 ERROR 	84 artifacts copied, 0 already retrieved[0m
+[0m2021.03.09 08:23:38 ERROR [info] [launcher] getting Scala 2.12.12 (for sbt)...[0m
+[0m2021.03.09 08:23:38 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar ...[0m
+[0m2021.03.09 08:23:38 ERROR downloading https://repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar ...[0m
+[0m2021.03.09 08:23:38 ERROR downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar ...[0m
+[0m2021.03.09 08:23:39 ERROR 	[SUCCESSFUL ] jline#jline;2.14.6!jline.jar (307ms)[0m
+[0m2021.03.09 08:23:39 ERROR 	[SUCCESSFUL ] org.fusesource.jansi#jansi;1.12!jansi.jar (317ms)[0m
+[0m2021.03.09 08:23:39 ERROR 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle) (340ms)[0m
+[0m2021.03.09 08:23:39 ERROR :: retrieving :: org.scala-sbt#boot-scala[0m
+[0m2021.03.09 08:23:39 ERROR 	confs: [default][0m
+[0m2021.03.09 08:23:39 ERROR 	6 artifacts copied, 0 already retrieved[0m
+[0m2021.03.09 08:23:43 INFO  [info] welcome to sbt 1.4.7 (Oracle Corporation Java 13.0.2)[0m
+[0m2021.03.09 08:23:50 INFO  [info] loading settings for project hello-world-build-build from metals.sbt ...[0m
+[0m2021.03.09 08:23:53 INFO  [info] loading project definition from C:\workspace\scala\hello-world\project\project[0m
+[0m2021.03.09 08:24:07 INFO  [info] loading settings for project hello-world-build from metals.sbt ...[0m
+[0m2021.03.09 08:24:07 INFO  [info] loading project definition from C:\workspace\scala\hello-world\project[0m
+[0m2021.03.09 08:24:34 INFO  [success] Generated .bloop\hello-world-build.json[0m
+[0m2021.03.09 08:24:34 INFO  [success] Total time: 26 s, completed 09.03.2021, 08:24:35[0m
+[0m2021.03.09 08:24:40 INFO  [info] loading settings for project hello-world from build.sbt ...[0m
+[0m2021.03.09 08:24:40 INFO  [info] set current project to hello-world (in build file:/C:/workspace/scala/hello-world/)[0m
+[0m2021.03.09 08:24:50 INFO  [success] Generated .bloop\hello-world-test.json[0m
+[0m2021.03.09 08:24:50 INFO  [success] Generated .bloop\hello-world.json[0m
+[0m2021.03.09 08:24:50 INFO  [success] Total time: 9 s, completed 09.03.2021, 08:24:50[0m
+[0m2021.03.09 08:24:50 INFO  sbt bloopInstall exit: 0[0m
+[0m2021.03.09 08:24:50 INFO  time: ran 'sbt bloopInstall' in 2m5s[0m
+[0m2021.03.09 08:24:50 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 31137'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from 'c:\workspace\scala\hello-world\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\workspace\scala\hello-world\.bloop\hello-world-test.json'
+[0m[32m[D][0m Loading project from 'c:\workspace\scala\hello-world\.bloop\hello-world.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => C:\Users\sohre\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\sohre\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar
+[0m[32m[D][0m   => C:\Users\sohre\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\sohre\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\sohre\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar
+[0m[32m[D][0m Missing analysis file for project 'hello-world-test'
+[0m[32m[D][0m Missing analysis file for project 'hello-world'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:31137...
+The server is listening for incoming connections at tcp://127.0.0.1:31137...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.03.09 08:25:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.03.09 08:25:31 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 31064'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:31064...
+The server is listening for incoming connections at tcp://127.0.0.1:31064...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.03.09 08:25:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.03.09 08:25:35 INFO  time: Connected to build server in 45s[0m
+[0m2021.03.09 08:25:35 INFO  Connected to Build server: Bloop v1.4.8[0m
+[0m2021.03.09 08:25:36 INFO  time: Imported build in 0.41s[0m
+[0m2021.03.09 08:25:46 INFO  time: indexed workspace in 10s[0m
+[0m2021.03.09 08:25:55 INFO  compiling hello-world (1 scala source)[0m
+[0m2021.03.09 08:26:34 INFO  time: compiled hello-world in 39s[0m
+[0m2021.03.09 08:33:44 INFO  Listening for transport dt_socket at address: 61016[0m
+[0m2021.03.09 08:33:44 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.03.09 08:33:44 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.03.09 08:33:45 INFO  Starting debug proxy for [Main][0m
+[0m2021.03.09 08:33:44 INFO  Trying to attach to remote debuggee VM 127.0.0.1:61016 .[0m
+[0m2021.03.09 08:33:45 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.03.09 08:33:45 INFO  Hello, World![0m
+[0m2021.03.09 08:33:45 INFO  Canceling debug proxy for [Main][0m
+[0m2021.03.09 08:34:35 INFO  compiling hello-world (1 scala source)[0m
+[0m2021.03.09 08:34:36 INFO  time: compiled hello-world in 1.27s[0m
+[0m2021.03.09 08:34:44 INFO  Listening for transport dt_socket at address: 61039[0m
+[0m2021.03.09 08:34:45 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.03.09 08:34:45 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.03.09 08:34:45 INFO  Starting debug proxy for [Main][0m
+[0m2021.03.09 08:34:46 INFO  Trying to attach to remote debuggee VM 127.0.0.1:61039 .[0m
+[0m2021.03.09 08:34:46 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.03.09 08:34:46 INFO  Hello, World! Ich bin Simon[0m
+[0m2021.03.09 08:34:45 INFO  Canceling debug proxy for [Main][0m
+[0m2021.03.09 08:35:45 INFO  shutting down Metals[0m
+[0m2021.03.09 08:35:45 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+[0m2021.03.09 08:35:45 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.03.09 08:38:20 INFO  Started: Metals version 0.10.0 in workspace 'C:\workspace\scala\hello-world' for client vscode 1.54.1.[0m
+[0m2021.03.09 08:38:23 INFO  time: initialize in 3.02s[0m
+[0m2021.03.09 08:38:24 INFO  Attempting to connect to the build server...[0m
+[0m2021.03.09 08:38:24 WARN  no build target for: C:\workspace\scala\hello-world\src\main\scala\Main.scala[0m
+[0m2021.03.09 08:38:25 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 37443'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:37443...
+The server is listening for incoming connections at tcp://127.0.0.1:37443...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.03.09 08:38:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.03.09 08:38:29 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 27307'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:27307...
+The server is listening for incoming connections at tcp://127.0.0.1:27307...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.03.09 08:38:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.03.09 08:38:30 INFO  time: Connected to build server in 6.38s[0m
+[0m2021.03.09 08:38:30 INFO  Connected to Build server: Bloop v1.4.8[0m
+[0m2021.03.09 08:38:33 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.03.09 08:38:33 INFO  time: Imported build in 0.37s[0m
+object Main extends App {
+  println("Hello, World! Ich bin Simon")
+}
+[0m2021.03.09 08:38:38 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+März 09, 2021 8:38:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+März 09, 2021 8:38:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+[0m2021.03.09 08:38:38 INFO  compiling hello-world (1 scala source)[0m
+[0m2021.03.09 08:38:45 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2021.03.09 08:38:48 INFO  time: compiled hello-world in 9.26s[0m
+[0m2021.03.09 08:38:48 INFO  time: indexed workspace in 14s[0m
+März 09, 2021 8:38:49 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+object Main extends App {
+  println("Hello, World! Ich bin ich")
+}
+März 09, 2021 8:38:53 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+[0m2021.03.09 08:38:53 INFO  time: code lens generation in 28s[0m
+[0m2021.03.09 08:39:06 INFO  Listening for transport dt_socket at address: 61145[0m
+[0m2021.03.09 08:39:06 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.03.09 08:39:06 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.03.09 08:39:06 INFO  Starting debug proxy for [Main][0m
+[0m2021.03.09 08:39:07 INFO  Trying to attach to remote debuggee VM 127.0.0.1:61145 .[0m
+[0m2021.03.09 08:39:07 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.03.09 08:39:07 INFO  Hello, World! Ich bin ich[0m
+[0m2021.03.09 08:39:06 INFO  Canceling debug proxy for [Main][0m
+März 09, 2021 8:39:07 AM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SEVERE: java.net.SocketException: Socket closed
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.net.SocketException: Socket closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.debug.SocketEndpoint.consume(SocketEndpoint.scala:22)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.consume(MessageIdAdapter.scala:43)
+	at scala.meta.internal.metals.debug.ServerAdapter.send(ServerAdapter.scala:30)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleClientMessage$1(DebugProxy.scala:88)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToClient$1(DebugProxy.scala:53)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:166)
+	at java.base/sun.nio.ch.NioSocketImpl.beginWrite(NioSocketImpl.java:367)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:412)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:441)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:825)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1007)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 21 more
+
+[0m2021.03.09 08:40:18 INFO  compiling hello-world (1 scala source)[0m
+[0m2021.03.09 08:40:19 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.03.09 08:40:19 INFO  time: compiled hello-world in 1.79s[0m
+[0m2021.03.09 08:40:46 INFO  Listening for transport dt_socket at address: 61209[0m
+[0m2021.03.09 08:40:46 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.03.09 08:40:47 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.03.09 08:40:47 INFO  Starting debug proxy for [HelloWorld][0m
+[0m2021.03.09 08:40:46 INFO  Trying to attach to remote debuggee VM 127.0.0.1:61209 .[0m
+[0m2021.03.09 08:40:46 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.03.09 08:40:47 INFO  Ich lebe, juhu!![0m
+[0m2021.03.09 08:40:47 INFO  Canceling debug proxy for [HelloWorld][0m
+[0m2021.03.09 08:41:25 INFO  shutting down Metals[0m
+[0m2021.03.09 08:41:25 INFO  Shut down connection with build server.[0m
+[0m2021.03.09 08:41:25 No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+INFO  Shut down connection with build server.[0mNo more data in the server stdin, exiting...
+
+No more data in the client stdin, exiting...
+[0m2021.03.09 12:53:36 INFO  Started: Metals version 0.10.0 in workspace 'C:\workspace\scala\hello-world' for client vscode 1.54.1.[0m
+[0m2021.03.09 12:53:40 INFO  time: initialize in 3.71s[0m
+[0m2021.03.09 12:53:41 INFO  Attempting to connect to the build server...[0m
+[0m2021.03.09 12:53:41 WARN  no build target for: C:\workspace\scala\hello-world\src\main\scala\Main.scala[0m
+[0m2021.03.09 12:53:42 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 43624'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.03.09 12:54:00 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+object HelloWorld{
+    def main(args: Array[String])
+    {
+        println("Ich lebe, juhu!!")
+    }
+}
+object HelloWorld{
+    def main(args: Array[String])
+    {
+        println("Ich lebe, juhu!!")
+    }
+}
+[0m2021.03.09 12:54:07 INFO  time: code lens generation in 25s[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\workspace\scala\hello-world\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\workspace\scala\hello-world\.bloop\hello-world.json'
+[0m[32m[D][0m Loading project from 'c:\workspace\scala\hello-world\.bloop\hello-world-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => C:\Users\sohre\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\sohre\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar
+[0m[32m[D][0m   => C:\Users\sohre\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\sohre\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\sohre\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'hello-world', 'hello-world-test'
+[0m[32m[D][0m Missing analysis file for project 'hello-world-test'
+[0m[32m[D][0m Loading previous analysis for 'hello-world' from 'C:\workspace\scala\hello-world\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:43624...
+The server is listening for incoming connections at tcp://127.0.0.1:43624...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.03.09 12:54:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.03.09 12:54:12 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 43451'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:43451...
+The server is listening for incoming connections at tcp://127.0.0.1:43451...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.03.09 12:54:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.03.09 12:54:13 INFO  time: Connected to build server in 32s[0m
+[0m2021.03.09 12:54:13 INFO  Connected to Build server: Bloop v1.4.8[0m
+[0m2021.03.09 12:54:13 INFO  time: Imported build in 0.46s[0m
+[0m2021.03.09 12:54:21 INFO  time: indexed workspace in 7.23s[0m
+[0m2021.03.09 12:54:29 INFO  compiling hello-world (1 scala source)[0m
+[0m2021.03.09 12:54:38 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.10.0' (since 25.524s)[0m
+[0m2021.03.09 12:54:38 INFO  compiling hello-world (1 scala source)[0m
+[0m2021.03.09 12:54:41 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.03.09 12:54:41 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.03.09 12:54:41 INFO  time: compiled hello-world in 3.24s[0m
+[0m2021.03.09 12:54:44 ERROR Unexpected error initializing server
+scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: CompileResult
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:236)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:229)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:830)
+[0m
+[0m2021.03.09 12:54:44 ERROR Unexpected error when compiling hello-world: 'C:\workspace\scala\hello-world\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip (Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird)'[0m
+März 09, 2021 12:55:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 106
+[0m2021.03.09 12:56:16 ERROR Unexpected error when compiling hello-world: 'C:\workspace\scala\hello-world\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip (Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird)'[0m
+[0m2021.03.09 12:58:16 ERROR Unexpected error when compiling hello-world: 'C:\workspace\scala\hello-world\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip (Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird)'[0m
+[0m2021.03.09 12:58:28 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.10.0' (since 4m 15.213s)[0m
+[0m2021.03.09 12:58:28 ERROR Unexpected error when compiling hello-world: 'C:\workspace\scala\hello-world\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip (Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird)'[0m
+[0m2021.03.09 12:58:30 INFO  Listening for transport dt_socket at address: 64476[0m
+[0m2021.03.09 12:58:31 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.03.09 12:58:31 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.03.09 12:58:31 INFO  Starting debug proxy for [HelloWorld][0m
+[0m2021.03.09 12:58:30 INFO  Trying to attach to remote debuggee VM 127.0.0.1:64476 .[0m
+[0m2021.03.09 12:58:31 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.03.09 12:58:31 INFO  Ich lebe, juhu!![0m
+[0m2021.03.09 12:58:31 INFO  Canceling debug proxy for [HelloWorld][0m
+März 09, 2021 12:58:32 PM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SEVERE: java.net.SocketException: Socket closed
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.net.SocketException: Socket closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.debug.SocketEndpoint.consume(SocketEndpoint.scala:22)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.consume(MessageIdAdapter.scala:43)
+	at scala.meta.internal.metals.debug.ServerAdapter.send(ServerAdapter.scala:30)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleClientMessage$1(DebugProxy.scala:88)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToClient$1(DebugProxy.scala:53)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:166)
+	at java.base/sun.nio.ch.NioSocketImpl.beginWrite(NioSocketImpl.java:367)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:412)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:441)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:825)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1007)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 21 more
+
+[0m2021.03.09 12:58:50 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.10.0' (since 4m 37.267s)[0m
+[0m2021.03.09 12:58:50 ERROR Unexpected error when compiling hello-world: 'C:\workspace\scala\hello-world\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip (Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird)'[0m
+[0m2021.03.09 12:58:52 ERROR Unexpected error when compiling hello-world: 'C:\workspace\scala\hello-world\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip (Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird)'[0m
+[0m2021.03.09 12:58:52 INFO  Listening for transport dt_socket at address: 64485[0m
+[0m2021.03.09 12:58:52 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.03.09 12:58:52 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.03.09 12:58:53 INFO  Starting debug proxy for [HelloWorld][0m
+[0m2021.03.09 12:58:53 INFO  Trying to attach to remote debuggee VM 127.0.0.1:64485 .[0m
+[0m2021.03.09 12:58:53 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.03.09 12:58:53 INFO  Ich lebe, juhu!![0m
+[0m2021.03.09 12:58:53 INFO  Canceling debug proxy for [HelloWorld][0m
+[0m2021.03.09 12:59:01 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.10.0' (since 4m 48.981s)[0m
+[0m2021.03.09 12:59:01 ERROR Unexpected error when compiling hello-world: 'C:\workspace\scala\hello-world\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip (Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird)'[0m
+[0m2021.03.09 12:59:02 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.10.0' (since 4m 50.132s)[0m
+[0m2021.03.09 12:59:02 ERROR Unexpected error when compiling hello-world: 'C:\workspace\scala\hello-world\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip (Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird)'[0m
+[0m2021.03.09 12:59:05 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.10.0' (since 4m 52.255s)[0m
+[0m2021.03.09 12:59:05 ERROR Unexpected error when compiling hello-world: 'C:\workspace\scala\hello-world\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip (Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird)'[0m
+[0m2021.03.09 12:59:07 INFO  Listening for transport dt_socket at address: 64503[0m
+[0m2021.03.09 12:59:07 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.03.09 12:59:07 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.03.09 12:59:08 INFO  Starting debug proxy for [HelloWorld][0m
+[0m2021.03.09 12:59:07 INFO  Trying to attach to remote debuggee VM 127.0.0.1:64503 .[0m
+[0m2021.03.09 12:59:07 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.03.09 12:59:08 INFO  Ich lebe, juhu!![0m
+[0m2021.03.09 12:59:08 INFO  Canceling debug proxy for [HelloWorld][0m
+[0m2021.03.09 12:59:13 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.10.0' (since 5m 1.098s)[0m
+[0m2021.03.09 12:59:13 ERROR Unexpected error when compiling hello-world: 'C:\workspace\scala\hello-world\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip (Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird)'[0m
+[0m2021.03.09 12:59:16 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.10.0' (since 5m 3.207s)[0m
+[0m2021.03.09 12:59:16 ERROR Unexpected error when compiling hello-world: 'C:\workspace\scala\hello-world\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip (Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird)'[0m
+[0m2021.03.09 12:59:17 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.10.0' (since 5m 4.598s)[0m
+[0m2021.03.09 12:59:17 ERROR Unexpected error when compiling hello-world: 'C:\workspace\scala\hello-world\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip (Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird)'[0m
+[0m2021.03.09 12:59:22 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.10.0' (since 5m 9.77s)[0m
+[0m2021.03.09 12:59:22 ERROR Unexpected error when compiling hello-world: 'C:\workspace\scala\hello-world\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip (Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird)'[0m
+[0m2021.03.09 12:59:24 INFO  Listening for transport dt_socket at address: 64526[0m
+[0m2021.03.09 12:59:25 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.03.09 12:59:25 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.03.09 12:59:26 INFO  Starting debug proxy for [HelloWorld][0m
+[0m2021.03.09 12:59:26 INFO  Trying to attach to remote debuggee VM 127.0.0.1:64526 .[0m
+[0m2021.03.09 12:59:26 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.03.09 12:59:26 INFO  Ich lebe, juhu!![0m
+[0m2021.03.09 12:59:26 INFO  Canceling debug proxy for [HelloWorld][0m
+[0m2021.03.09 12:59:34 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.10.0' (since 5m 22.065s)[0m
+[0m2021.03.09 12:59:34 ERROR Unexpected error when compiling hello-world: 'C:\workspace\scala\hello-world\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip (Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird)'[0m
+[0m2021.03.09 12:59:37 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.10.0' (since 5m 24.146s)[0m
+[0m2021.03.09 12:59:37 ERROR Unexpected error when compiling hello-world: 'C:\workspace\scala\hello-world\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip (Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird)'[0m
+error: Unexpected error forces client exit!
+java.lang.NumberFormatException: For input string: "0
+"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+	at java.base/java.lang.Integer.parseInt(Integer.java:658)
+	at java.base/java.lang.Integer.parseInt(Integer.java:776)
+	at bloop.shaded.snailgun.protocol.Protocol.$anonfun$processChunkFromServer$1(Protocol.scala:193)
+	at scala.util.Try$.apply(Try.scala:213)
+	at bloop.shaded.snailgun.protocol.Protocol.processChunkFromServer(Protocol.scala:180)
+	at bloop.shaded.snailgun.protocol.Protocol.sendCommand(Protocol.scala:108)
+	at bloop.shaded.snailgun.TcpClient.run(TcpClient.scala:34)
+	at bloop.bloopgun.BloopgunCli.executeCmd$1(Bloopgun.scala:268)
+	at bloop.bloopgun.BloopgunCli.fireCommand(Bloopgun.scala:274)
+	at bloop.bloopgun.BloopgunCli.run(Bloopgun.scala:230)
+	at scala.meta.internal.metals.BloopServers.shutdownServer(BloopServers.scala:52)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$executeCommand$3(MetalsLanguageServer.scala:1514)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:1513)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+[0m2021.03.09 12:59:59 WARN  There were issues stopping the Bloop server.[0m
+[0m2021.03.09 12:59:59 WARN  If it doesn't start back up you can run the `build-restart` command manually.[0m
+[0m2021.03.09 12:59:59 INFO  Disconnecting from Bloop session...[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.03.09 12:59:59 ERROR build shutdown: bloop
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Connection reset by peer
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2093)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:88)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:85)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:830)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Connection reset by peer
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at com.sun.proxy.$Proxy9.buildShutdown(null)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:88)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:85)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:830)
+Caused by: java.io.IOException: Connection reset by peer
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:113)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:79)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:50)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:484)
+	at sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:114)
+	at java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.io.OutputStream.write(OutputStream.java:122)
+	at java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at com.sun.proxy.$Proxy9.buildShutdown(null)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:88)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:85)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:830)
+[0m
+[0m2021.03.09 12:59:59 ERROR build shutdown: bloop
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Connection reset by peer
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2093)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:88)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:85)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:830)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Connection reset by peer
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at com.sun.proxy.$Proxy9.buildShutdown(null)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:88)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:85)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:830)
+Caused by: java.io.IOException: Connection reset by peer
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:113)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:79)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:50)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:484)
+	at sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:114)
+	at java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.io.OutputStream.write(OutputStream.java:122)
+	at java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at com.sun.proxy.$Proxy9.buildShutdown(null)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:88)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:85)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:830)
+[0m
+[0m2021.03.09 12:59:59 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 34380'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\workspace\scala\hello-world\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\workspace\scala\hello-world\.bloop\hello-world-test.json'
+[0m[32m[D][0m Loading project from 'c:\workspace\scala\hello-world\.bloop\hello-world.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => C:\Users\sohre\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\sohre\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar
+[0m[32m[D][0m   => C:\Users\sohre\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\sohre\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\sohre\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'hello-world', 'hello-world-test'
+[0m[32m[D][0m Missing analysis file for project 'hello-world-test'
+[0m[32m[D][0m Loading previous analysis for 'hello-world' from 'C:\workspace\scala\hello-world\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:34380...
+The server is listening for incoming connections at tcp://127.0.0.1:34380...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.03.09 13:00:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.03.09 13:00:09 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 35739'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:35739...
+The server is listening for incoming connections at tcp://127.0.0.1:35739...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.03.09 13:00:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.03.09 13:00:10 INFO  time: Connected to build server in 10s[0m
+[0m2021.03.09 13:00:10 INFO  Connected to Build server: Bloop v1.4.8[0m
+[0m2021.03.09 13:00:10 INFO  time: Imported build in 0.24s[0m
+[0m2021.03.09 13:00:13 INFO  time: indexed workspace in 3.11s[0m
+[0m2021.03.09 13:00:16 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.10.0' (since 6.605s)[0m
+[0m2021.03.09 13:00:16 INFO  compiling hello-world (1 scala source)[0m
+[0m2021.03.09 13:00:16 INFO  compiling hello-world (1 scala source)[0m
+[0m2021.03.09 13:00:22 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.03.09 13:00:22 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.03.09 13:00:22 INFO  time: compiled hello-world in 5.68s[0m
+[0m2021.03.09 13:00:30 INFO  Listening for transport dt_socket at address: 64570[0m
+[0m2021.03.09 13:00:30 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.03.09 13:00:30 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.03.09 13:00:30 INFO  Starting debug proxy for [HelloWorld][0m
+[0m2021.03.09 13:00:30 INFO  Trying to attach to remote debuggee VM 127.0.0.1:64570 .[0m
+[0m2021.03.09 13:00:30 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.03.09 13:00:31 INFO  Ich lebe, juhu!![0m
+[0m2021.03.09 13:00:31 INFO  Simon[0m
+[0m2021.03.09 13:00:30 INFO  Canceling debug proxy for [HelloWorld][0m
+[0m2021.03.09 13:00:47 INFO  compiling hello-world (1 scala source)[0m
+[0m2021.03.09 13:00:49 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.03.09 13:00:49 INFO  time: compiled hello-world in 1.8s[0m
+[0m2021.03.09 13:00:57 INFO  Listening for transport dt_socket at address: 64585[0m
+[0m2021.03.09 13:00:57 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.03.09 13:00:57 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.03.09 13:00:58 INFO  Starting debug proxy for [HelloWorld][0m
+[0m2021.03.09 13:00:57 INFO  Trying to attach to remote debuggee VM 127.0.0.1:64585 .[0m
+[0m2021.03.09 13:00:57 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.03.09 13:00:59 INFO  Ich lebe, juhu!![0m
+[0m2021.03.09 13:00:59 INFO  Simon[0m
+[0m2021.03.09 13:00:58 INFO  Canceling debug proxy for [HelloWorld][0m
+[0m2021.03.09 13:01:14 INFO  compiling hello-world (1 scala source)[0m
+[0m2021.03.09 13:01:14 INFO  Listening for transport dt_socket at address: 64594[0m
+[0m2021.03.09 13:01:15 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.03.09 13:01:16 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.03.09 13:01:16 INFO  time: compiled hello-world in 2.07s[0m
+[0m2021.03.09 13:01:16 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.03.09 13:01:16 INFO  Starting debug proxy for [HelloWorld][0m
+[0m2021.03.09 13:01:16 INFO  Trying to attach to remote debuggee VM 127.0.0.1:64594 .[0m
+[0m2021.03.09 13:01:16 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.03.09 13:01:16 INFO  Ich lebe, juhu!![0m
+[0m2021.03.09 13:01:16 INFO  Simon der Allerechte[0m
+[0m2021.03.09 13:01:17 INFO  Canceling debug proxy for [HelloWorld][0m
+[0m2021.03.09 13:01:33 INFO  compiling hello-world (1 scala source)[0m
+[0m2021.03.09 13:01:33 INFO  time: compiled hello-world in 0.47s[0m
+[0m2021.03.09 13:03:57 INFO  compiling hello-world (1 scala source)[0m
+[0m2021.03.09 13:03:57 INFO  time: compiled hello-world in 0.42s[0m
+[0m2021.03.09 13:04:00 INFO  compiling hello-world (1 scala source)[0m
+[0m2021.03.09 13:04:00 INFO  time: compiled hello-world in 0.31s[0m
+März 09, 2021 1:04:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2159)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:236)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:229)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	... 4 more
+
+[0m2021.03.09 13:06:05 INFO  Listening for transport dt_socket at address: 64654[0m
+[0m2021.03.09 13:06:06 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.03.09 13:06:06 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.03.09 13:06:06 INFO  Starting debug proxy for [HelloWorld][0m
+[0m2021.03.09 13:06:06 INFO  Trying to attach to remote debuggee VM 127.0.0.1:64654 .[0m
+[0m2021.03.09 13:06:06 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.03.09 13:06:06 INFO  Ich lebe, juhu!![0m
+[0m2021.03.09 13:06:06 INFO  Simon der Allerechte[0m
+[0m2021.03.09 13:06:06 INFO  Canceling debug proxy for [HelloWorld][0m
+März 09, 2021 1:06:36 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+März 09, 2021 1:06:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:136)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+[0m2021.03.09 13:07:14 INFO  compiling hello-world (1 scala source)[0m
+[0m2021.03.09 13:07:15 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.03.09 13:07:15 INFO  time: compiled hello-world in 1.3s[0m
+[0m2021.03.09 13:07:22 INFO  Listening for transport dt_socket at address: 64677[0m
+[0m2021.03.09 13:07:22 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.03.09 13:07:22 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.03.09 13:07:23 INFO  Starting debug proxy for [HelloWorld][0m
+[0m2021.03.09 13:07:22 INFO  Trying to attach to remote debuggee VM 127.0.0.1:64677 .[0m
+[0m2021.03.09 13:07:22 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.03.09 13:07:23 INFO  Ich lebe, juhu!![0m
+[0m2021.03.09 13:07:23 INFO  Simon der Allerechte[0m
+[0m2021.03.09 13:07:23 INFO  Canceling debug proxy for [HelloWorld][0m
+[0m2021.03.09 13:07:56 INFO  compiling hello-world (1 scala source)[0m
+[0m2021.03.09 13:07:58 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.03.09 13:07:58 INFO  time: compiled hello-world in 1.43s[0m
+[0m2021.03.09 13:08:11 INFO  Listening for transport dt_socket at address: 64695[0m
+[0m2021.03.09 13:08:12 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.03.09 13:08:12 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.03.09 13:08:12 INFO  Starting debug proxy for [HelloWorld][0m
+[0m2021.03.09 13:08:11 INFO  Trying to attach to remote debuggee VM 127.0.0.1:64695 .[0m
+[0m2021.03.09 13:08:11 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.03.09 13:08:13 INFO  Ich lebe, juhu!![0m
+[0m2021.03.09 13:08:13 INFO  Simon der Allerechte[0m
+[0m2021.03.09 13:08:13 INFO  ()[0m
+[0m2021.03.09 13:08:12 INFO  Canceling debug proxy for [HelloWorld][0m
+März 09, 2021 1:08:45 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+März 09, 2021 1:08:46 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+[0m2021.03.09 13:08:57 INFO  compiling hello-world (1 scala source)[0m
+[0m2021.03.09 13:08:57 INFO  time: compiled hello-world in 0.17s[0m
+März 09, 2021 1:09:09 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+März 09, 2021 1:09:10 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+[0m2021.03.09 13:11:41 INFO  compiling hello-world (1 scala source)[0m
+[0m2021.03.09 13:11:42 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.03.09 13:11:42 INFO  time: compiled hello-world in 1.47s[0m
+[0m2021.03.09 13:11:50 INFO  compiling hello-world (1 scala source)[0m
+[0m2021.03.09 13:11:52 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.03.09 13:11:52 INFO  time: compiled hello-world in 1.62s[0m
+[0m2021.03.09 13:11:58 INFO  Listening for transport dt_socket at address: 64725[0m
+[0m2021.03.09 13:11:59 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.03.09 13:11:59 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.03.09 13:11:59 INFO  Starting debug proxy for [HelloWorld][0m
+[0m2021.03.09 13:11:58 INFO  Trying to attach to remote debuggee VM 127.0.0.1:64725 .[0m
+[0m2021.03.09 13:11:58 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.03.09 13:12:00 INFO  Ich lebe, juhu!![0m
+[0m2021.03.09 13:12:00 INFO  Simon der Allerechte[0m
+[0m2021.03.09 13:12:00 INFO  15[0m
+[0m2021.03.09 13:11:59 INFO  Canceling debug proxy for [HelloWorld][0m
+[0m2021.03.09 13:13:07 INFO  compiling hello-world (1 scala source)[0m
+/*
+ * Scala (https://www.scala-lang.org)
+ *
+ * Copyright EPFL and Lightbend, Inc.
+ *
+ * Licensed under Apache License 2.0
+ * (http://www.apache.org/licenses/LICENSE-2.0).
+ *
+ * See the NOTICE file distributed with this work for
+ * additional information regarding copyright ownership.
+ */
+
+// DO NOT EDIT, CHANGES WILL BE LOST
+// This auto-generated code can be modified in "project/GenerateAnyVals.scala".
+// Afterwards, running "sbt generateSources" regenerates this source file.
+
+package scala
+
+/** `Int`, a 32-bit signed integer (equivalent to Java's `int` primitive type) is a
+ *  subtype of [[scala.AnyVal]]. Instances of `Int` are not
+ *  represented by an object in the underlying runtime system.
+ *
+ *  There is an implicit conversion from [[scala.Int]] => [[scala.runtime.RichInt]]
+ *  which provides useful non-primitive operations.
+ */
+final abstract class Int private extends AnyVal {
+  def toByte: Byte
+  def toShort: Short
+  def toChar: Char
+  def toInt: Int
+  def toLong: Long
+  def toFloat: Float
+  def toDouble: Double
+
+  /**
+ * Returns the bitwise negation of this value.
+ * @example {{{
+ * ~5 == -6
+ * // in binary: ~00000101 ==
+ * //             11111010
+ * }}}
+ */
+  def unary_~ : Int
+  /** Returns this value, unmodified. */
+  def unary_+ : Int
+  /** Returns the negation of this value. */
+  def unary_- : Int
+
+  def +(x: String): String
+
+  /**
+  * Returns this value bit-shifted left by the specified number of bits,
+  *         filling in the new right bits with zeroes.
+  * @example {{{ 6 << 3 == 48 // in binary: 0110 << 3 == 0110000 }}}
+  */
+  def <<(x: Int): Int
+  /**
+  * Returns this value bit-shifted left by the specified number of bits,
+  *         filling in the new right bits with zeroes.
+  * @example {{{ 6 << 3 == 48 // in binary: 0110 << 3 == 0110000 }}}
+  */
+  @deprecated("shifting a value by a `Long` argument is deprecated (except when the value is a `Long`).\nCall `toInt` on the argument to maintain the current behavior and avoid the deprecation warning.", "2.12.7")
+  def <<(x: Long): Int
+  /**
+  * Returns this value bit-shifted right by the specified number of bits,
+  *         filling the new left bits with zeroes.
+  * @example {{{ 21 >>> 3 == 2 // in binary: 010101 >>> 3 == 010 }}}
+  * @example {{{
+  * -21 >>> 3 == 536870909
+  * // in binary: 11111111 11111111 11111111 11101011 >>> 3 ==
+  * //            00011111 11111111 11111111 11111101
+  * }}}
+  */
+  def >>>(x: Int): Int
+  /**
+  * Returns this value bit-shifted right by the specified number of bits,
+  *         filling the new left bits with zeroes.
+  * @example {{{ 21 >>> 3 == 2 // in binary: 010101 >>> 3 == 010 }}}
+  * @example {{{
+  * -21 >>> 3 == 536870909
+  * // in binary: 11111111 11111111 11111111 11101011 >>> 3 ==
+  * //            00011111 11111111 11111111 11111101
+  * }}}
+  */
+  @deprecated("shifting a value by a `Long` argument is deprecated (except when the value is a `Long`).\nCall `toInt` on the argument to maintain the current behavior and avoid the deprecation warning.", "2.12.7")
+  def >>>(x: Long): Int
+  /**
+  * Returns this value bit-shifted right by the specified number of bits,
+  *         filling in the left bits with the same value as the left-most bit of this.
+  *         The effect of this is to retain the sign of the value.
+  * @example {{{
+  * -21 >> 3 == -3
+  * // in binary: 11111111 11111111 11111111 11101011 >> 3 ==
+  * //            11111111 11111111 11111111 11111101
+  * }}}
+  */
+  def >>(x: Int): Int
+  /**
+  * Returns this value bit-shifted right by the specified number of bits,
+  *         filling in the left bits with the same value as the left-most bit of this.
+  *         The effect of this is to retain the sign of the value.
+  * @example {{{
+  * -21 >> 3 == -3
+  * // in binary: 11111111 11111111 11111111 11101011 >> 3 ==
+  * //            11111111 11111111 11111111 11111101
+  * }}}
+  */
+  @deprecated("shifting a value by a `Long` argument is deprecated (except when the value is a `Long`).\nCall `toInt` on the argument to maintain the current behavior and avoid the deprecation warning.", "2.12.7")
+  def >>(x: Long): Int
+
+  /** Returns `true` if this value is equal to x, `false` otherwise. */
+  def ==(x: Byte): Boolean
+  /** Returns `true` if this value is equal to x, `false` otherwise. */
+  def ==(x: Short): Boolean
+  /** Returns `true` if this value is equal to x, `false` otherwise. */
+  def ==(x: Char): Boolean
+  /** Returns `true` if this value is equal to x, `false` otherwise. */
+  def ==(x: Int): Boolean
+  /** Returns `true` if this value is equal to x, `false` otherwise. */
+  def ==(x: Long): Boolean
+  /** Returns `true` if this value is equal to x, `false` otherwise. */
+  def ==(x: Float): Boolean
+  /** Returns `true` if this value is equal to x, `false` otherwise. */
+  def ==(x: Double): Boolean
+
+  /** Returns `true` if this value is not equal to x, `false` otherwise. */
+  def !=(x: Byte): Boolean
+  /** Returns `true` if this value is not equal to x, `false` otherwise. */
+  def !=(x: Short): Boolean
+  /** Returns `true` if this value is not equal to x, `false` otherwise. */
+  def !=(x: Char): Boolean
+  /** Returns `true` if this value is not equal to x, `false` otherwise. */
+  def !=(x: Int): Boolean
+  /** Returns `true` if this value is not equal to x, `false` otherwise. */
+  def !=(x: Long): Boolean
+  /** Returns `true` if this value is not equal to x, `false` otherwise. */
+  def !=(x: Float): Boolean
+  /** Returns `true` if this value is not equal to x, `false` otherwise. */
+  def !=(x: Double): Boolean
+
+  /** Returns `true` if this value is less than x, `false` otherwise. */
+  def <(x: Byte): Boolean
+  /** Returns `true` if this value is less than x, `false` otherwise. */
+  def <(x: Short): Boolean
+  /** Returns `true` if this value is less than x, `false` otherwise. */
+  def <(x: Char): Boolean
+  /** Returns `true` if this value is less than x, `false` otherwise. */
+  def <(x: Int): Boolean
+  /** Returns `true` if this value is less than x, `false` otherwise. */
+  def <(x: Long): Boolean
+  /** Returns `true` if this value is less than x, `false` otherwise. */
+  def <(x: Float): Boolean
+  /** Returns `true` if this value is less than x, `false` otherwise. */
+  def <(x: Double): Boolean
+
+  /** Returns `true` if this value is less than or equal to x, `false` otherwise. */
+  def <=(x: Byte): Boolean
+  /** Returns `true` if this value is less than or equal to x, `false` otherwise. */
+  def <=(x: Short): Boolean
+  /** Returns `true` if this value is less than or equal to x, `false` otherwise. */
+  def <=(x: Char): Boolean
+  /** Returns `true` if this value is less than or equal to x, `false` otherwise. */
+  def <=(x: Int): Boolean
+  /** Returns `true` if this value is less than or equal to x, `false` otherwise. */
+  def <=(x: Long): Boolean
+  /** Returns `true` if this value is less than or equal to x, `false` otherwise. */
+  def <=(x: Float): Boolean
+  /** Returns `true` if this value is less than or equal to x, `false` otherwise. */
+  def <=(x: Double): Boolean
+
+  /** Returns `true` if this value is greater than x, `false` otherwise. */
+  def >(x: Byte): Boolean
+  /** Returns `true` if this value is greater than x, `false` otherwise. */
+  def >(x: Short): Boolean
+  /** Returns `true` if this value is greater than x, `false` otherwise. */
+  def >(x: Char): Boolean
+  /** Returns `true` if this value is greater than x, `false` otherwise. */
+  def >(x: Int): Boolean
+  /** Returns `true` if this value is greater than x, `false` otherwise. */
+  def >(x: Long): Boolean
+  /** Returns `true` if this value is greater than x, `false` otherwise. */
+  def >(x: Float): Boolean
+  /** Returns `true` if this value is greater than x, `false` otherwise. */
+  def >(x: Double): Boolean
+
+  /** Returns `true` if this value is greater than or equal to x, `false` otherwise. */
+  def >=(x: Byte): Boolean
+  /** Returns `true` if this value is greater than or equal to x, `false` otherwise. */
+  def >=(x: Short): Boolean
+  /** Returns `true` if this value is greater than or equal to x, `false` otherwise. */
+  def >=(x: Char): Boolean
+  /** Returns `true` if this value is greater than or equal to x, `false` otherwise. */
+  def >=(x: Int): Boolean
+  /** Returns `true` if this value is greater than or equal to x, `false` otherwise. */
+  def >=(x: Long): Boolean
+  /** Returns `true` if this value is greater than or equal to x, `false` otherwise. */
+  def >=(x: Float): Boolean
+  /** Returns `true` if this value is greater than or equal to x, `false` otherwise. */
+  def >=(x: Double): Boolean
+
+  /**
+  * Returns the bitwise OR of this value and `x`.
+  * @example {{{
+  * (0xf0 | 0xaa) == 0xfa
+  * // in binary:   11110000
+  * //            | 10101010
+  * //              --------
+  * //              11111010
+  * }}}
+  */
+  def |(x: Byte): Int
+  /**
+  * Returns the bitwise OR of this value and `x`.
+  * @example {{{
+  * (0xf0 | 0xaa) == 0xfa
+  * // in binary:   11110000
+  * //            | 10101010
+  * //              --------
+  * //              11111010
+  * }}}
+  */
+  def |(x: Short): Int
+  /**
+  * Returns the bitwise OR of this value and `x`.
+  * @example {{{
+  * (0xf0 | 0xaa) == 0xfa
+  * // in binary:   11110000
+  * //            | 10101010
+  * //              --------
+  * //              11111010
+  * }}}
+  */
+  def |(x: Char): Int
+  /**
+  * Returns the bitwise OR of this value and `x`.
+  * @example {{{
+  * (0xf0 | 0xaa) == 0xfa
+  * // in binary:   11110000
+  * //            | 10101010
+  * //              --------
+  * //              11111010
+  * }}}
+  */
+  def |(x: Int): Int
+  /**
+  * Returns the bitwise OR of this value and `x`.
+  * @example {{{
+  * (0xf0 | 0xaa) == 0xfa
+  * // in binary:   11110000
+  * //            | 10101010
+  * //              --------
+  * //              11111010
+  * }}}
+  */
+  def |(x: Long): Long
+
+  /**
+  * Returns the bitwise AND of this value and `x`.
+  * @example {{{
+  * (0xf0 & 0xaa) == 0xa0
+  * // in binary:   11110000
+  * //            & 10101010
+  * //              --------
+  * //              10100000
+  * }}}
+  */
+  def &(x: Byte): Int
+  /**
+  * Returns the bitwise AND of this value and `x`.
+  * @example {{{
+  * (0xf0 & 0xaa) == 0xa0
+  * // in binary:   11110000
+  * //            & 10101010
+  * //              --------
+  * //              10100000
+  * }}}
+  */
+  def &(x: Short): Int
+  /**
+  * Returns the bitwise AND of this value and `x`.
+  * @example {{{
+  * (0xf0 & 0xaa) == 0xa0
+  * // in binary:   11110000
+  * //            & 10101010
+  * //              --------
+  * //              10100000
+  * }}}
+  */
+  def &(x: Char): Int
+  /**
+  * Returns the bitwise AND of this value and `x`.
+  * @example {{{
+  * (0xf0 & 0xaa) == 0xa0
+  * // in binary:   11110000
+  * //            & 10101010
+  * //              --------
+  * //              10100000
+  * }}}
+  */
+  def &(x: Int): Int
+  /**
+  * Returns the bitwise AND of this value and `x`.
+  * @example {{{
+  * (0xf0 & 0xaa) == 0xa0
+  * // in binary:   11110000
+  * //            & 10101010
+  * //              --------
+  * //              10100000
+  * }}}
+  */
+  def &(x: Long): Long
+
+  /**
+  * Returns the bitwise XOR of this value and `x`.
+  * @example {{{
+  * (0xf0 ^ 0xaa) == 0x5a
+  * // in binary:   11110000
+  * //            ^ 10101010
+  * //              --------
+  * //              01011010
+  * }}}
+  */
+  def ^(x: Byte): Int
+  /**
+  * Returns the bitwise XOR of this value and `x`.
+  * @example {{{
+  * (0xf0 ^ 0xaa) == 0x5a
+  * // in binary:   11110000
+  * //            ^ 10101010
+  * //              --------
+  * //              01011010
+  * }}}
+  */
+  def ^(x: Short): Int
+  /**
+  * Returns the bitwise XOR of this value and `x`.
+  * @example {{{
+  * (0xf0 ^ 0xaa) == 0x5a
+  * // in binary:   11110000
+  * //            ^ 10101010
+  * //              --------
+  * //              01011010
+  * }}}
+  */
+  def ^(x: Char): Int
+  /**
+  * Returns the bitwise XOR of this value and `x`.
+  * @example {{{
+  * (0xf0 ^ 0xaa) == 0x5a
+  * // in binary:   11110000
+  * //            ^ 10101010
+  * //              --------
+  * //              01011010
+  * }}}
+  */
+  def ^(x: Int): Int
+  /**
+  * Returns the bitwise XOR of this value and `x`.
+  * @example {{{
+  * (0xf0 ^ 0xaa) == 0x5a
+  * // in binary:   11110000
+  * //            ^ 10101010
+  * //              --------
+  * //              01011010
+  * }}}
+  */
+  def ^(x: Long): Long
+
+  /** Returns the sum of this value and `x`. */
+  def +(x: Byte): Int
+  /** Returns the sum of this value and `x`. */
+  def +(x: Short): Int
+  /** Returns the sum of this value and `x`. */
+  def +(x: Char): Int
+  /** Returns the sum of this value and `x`. */
+  def +(x: Int): Int
+  /** Returns the sum of this value and `x`. */
+  def +(x: Long): Long
+  /** Returns the sum of this value and `x`. */
+  def +(x: Float): Float
+  /** Returns the sum of this value and `x`. */
+  def +(x: Double): Double
+
+  /** Returns the difference of this value and `x`. */
+  def -(x: Byte): Int
+  /** Returns the difference of this value and `x`. */
+  def -(x: Short): Int
+  /** Returns the difference of this value and `x`. */
+  def -(x: Char): Int
+  /** Returns the difference of this value and `x`. */
+  def -(x: Int): Int
+  /** Returns the difference of this value and `x`. */
+  def -(x: Long): Long
+  /** Returns the difference of this value and `x`. */
+  def -(x: Float): Float
+  /** Returns the difference of this value and `x`. */
+  def -(x: Double): Double
+
+  /** Returns the product of this value and `x`. */
+  def *(x: Byte): Int
+  /** Returns the product of this value and `x`. */
+  def *(x: Short): Int
+  /** Returns the product of this value and `x`. */
+  def *(x: Char): Int
+  /** Returns the product of this value and `x`. */
+  def *(x: Int): Int
+  /** Returns the product of this value and `x`. */
+  def *(x: Long): Long
+  /** Returns the product of this value and `x`. */
+  def *(x: Float): Float
+  /** Returns the product of this value and `x`. */
+  def *(x: Double): Double
+
+  /** Returns the quotient of this value and `x`. */
+  def /(x: Byte): Int
+  /** Returns the quotient of this value and `x`. */
+  def /(x: Short): Int
+  /** Returns the quotient of this value and `x`. */
+  def /(x: Char): Int
+  /** Returns the quotient of this value and `x`. */
+  def /(x: Int): Int
+  /** Returns the quotient of this value and `x`. */
+  def /(x: Long): Long
+  /** Returns the quotient of this value and `x`. */
+  def /(x: Float): Float
+  /** Returns the quotient of this value and `x`. */
+  def /(x: Double): Double
+
+  /** Returns the remainder of the division of this value by `x`. */
+  def %(x: Byte): Int
+  /** Returns the remainder of the division of this value by `x`. */
+  def %(x: Short): Int
+  /** Returns the remainder of the division of this value by `x`. */
+  def %(x: Char): Int
+  /** Returns the remainder of the division of this value by `x`. */
+  def %(x: Int): Int
+  /** Returns the remainder of the division of this value by `x`. */
+  def %(x: Long): Long
+  /** Returns the remainder of the division of this value by `x`. */
+  def %(x: Float): Float
+  /** Returns the remainder of the division of this value by `x`. */
+  def %(x: Double): Double
+
+  // Provide a more specific return type for Scaladoc
+  override def getClass(): Class[Int] = ???
+}
+
+object Int extends AnyValCompanion {
+  /** The smallest value representable as an Int. */
+  final val MinValue = java.lang.Integer.MIN_VALUE
+
+  /** The largest value representable as an Int. */
+  final val MaxValue = java.lang.Integer.MAX_VALUE
+
+  /** Transform a value type into a boxed reference type.
+   *
+   *  Runtime implementation determined by `scala.runtime.BoxesRunTime.boxToInteger`. See [[https://github.com/scala/scala src/library/scala/runtime/BoxesRunTime.java]].
+   *
+   *  @param  x   the Int to be boxed
+   *  @return     a java.lang.Integer offering `x` as its underlying value.
+   */
+  def box(x: Int): java.lang.Integer = ???
+
+  /** Transform a boxed type into a value type.  Note that this
+   *  method is not typesafe: it accepts any Object, but will throw
+   *  an exception if the argument is not a java.lang.Integer.
+   *
+   *  Runtime implementation determined by `scala.runtime.BoxesRunTime.unboxToInt`. See [[https://github.com/scala/scala src/library/scala/runtime/BoxesRunTime.java]].
+   *
+   *  @param  x   the java.lang.Integer to be unboxed.
+   *  @throws     ClassCastException  if the argument is not a java.lang.Integer
+   *  @return     the Int resulting from calling intValue() on `x`
+   */
+  def unbox(x: java.lang.Object): Int = ???
+
+  /** The String representation of the scala.Int companion object. */
+  override def toString = "object scala.Int"
+  /** Language mandated coercions from Int to "wider" types. */
+  import scala.language.implicitConversions
+  implicit def int2long(x: Int): Long = x.toLong
+  implicit def int2float(x: Int): Float = x.toFloat
+  implicit def int2double(x: Int): Double = x.toDouble
+}
+
+
+[0m2021.03.09 13:13:07 INFO  time: compiled hello-world in 0.66s[0m
+März 09, 2021 1:13:08 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+/*
+ * Scala (https://www.scala-lang.org)
+ *
+ * Copyright EPFL and Lightbend, Inc.
+ *
+ * Licensed under Apache License 2.0
+ * (http://www.apache.org/licenses/LICENSE-2.0).
+ *
+ * See the NOTICE file distributed with this work for
+ * additional information regarding copyright ownership.
+ */
+
+// DO NOT EDIT, CHANGES WILL BE LOST
+// This auto-generated code can be modified in "project/GenerateAnyVals.scala".
+// Afterwards, running "sbt generateSources" regenerates this source file.
+
+package scala
+
+/** `Int`, a 32-bit signed integer (equivalent to Java's `int` primitive type) is a
+ *  subtype of [[scala.AnyVal]]. Instances of `Int` are not
+ *  represented by an object in the underlying runtime system.
+ *
+ *  There is an implicit conversion from [[scala.Int]] => [[scala.runtime.RichInt]]
+ *  which provides useful non-primitive operations.
+ */
+final abstract class Int private extends AnyVal {
+  def toByte: Byte
+  def toShort: Short
+  def toChar: Char
+  def toInt: Int
+  def toLong: Long
+  def toFloat: Float
+  def toDouble: Double
+
+  /**
+ * Returns the bitwise negation of this value.
+ * @example {{{
+ * ~5 == -6
+ * // in binary: ~00000101 ==
+ * //             11111010
+ * }}}
+ */
+  def unary_~ : Int
+  /** Returns this value, unmodified. */
+  def unary_+ : Int
+  /** Returns the negation of this value. */
+  def unary_- : Int
+
+  def +(x: String): String
+
+  /**
+  * Returns this value bit-shifted left by the specified number of bits,
+  *         filling in the new right bits with zeroes.
+  * @example {{{ 6 << 3 == 48 // in binary: 0110 << 3 == 0110000 }}}
+  */
+  def <<(x: Int): Int
+  /**
+  * Returns this value bit-shifted left by the specified number of bits,
+  *         filling in the new right bits with zeroes.
+  * @example {{{ 6 << 3 == 48 // in binary: 0110 << 3 == 0110000 }}}
+  */
+  @deprecated("shifting a value by a `Long` argument is deprecated (except when the value is a `Long`).\nCall `toInt` on the argument to maintain the current behavior and avoid the deprecation warning.", "2.12.7")
+  def <<(x: Long): Int
+  /**
+  * Returns this value bit-shifted right by the specified number of bits,
+  *         filling the new left bits with zeroes.
+  * @example {{{ 21 >>> 3 == 2 // in binary: 010101 >>> 3 == 010 }}}
+  * @example {{{
+  * -21 >>> 3 == 536870909
+  * // in binary: 11111111 11111111 11111111 11101011 >>> 3 ==
+  * //            00011111 11111111 11111111 11111101
+  * }}}
+  */
+  def >>>(x: Int): Int
+  /**
+  * Returns this value bit-shifted right by the specified number of bits,
+  *         filling the new left bits with zeroes.
+  * @example {{{ 21 >>> 3 == 2 // in binary: 010101 >>> 3 == 010 }}}
+  * @example {{{
+  * -21 >>> 3 == 536870909
+  * // in binary: 11111111 11111111 11111111 11101011 >>> 3 ==
+  * //            00011111 11111111 11111111 11111101
+  * }}}
+  */
+  @deprecated("shifting a value by a `Long` argument is deprecated (except when the value is a `Long`).\nCall `toInt` on the argument to maintain the current behavior and avoid the deprecation warning.", "2.12.7")
+  def >>>(x: Long): Int
+  /**
+  * Returns this value bit-shifted right by the specified number of bits,
+  *         filling in the left bits with the same value as the left-most bit of this.
+  *         The effect of this is to retain the sign of the value.
+  * @example {{{
+  * -21 >> 3 == -3
+  * // in binary: 11111111 11111111 11111111 11101011 >> 3 ==
+  * //            11111111 11111111 11111111 11111101
+  * }}}
+  */
+  def >>(x: Int): Int
+  /**
+  * Returns this value bit-shifted right by the specified number of bits,
+  *         filling in the left bits with the same value as the left-most bit of this.
+  *         The effect of this is to retain the sign of the value.
+  * @example {{{
+  * -21 >> 3 == -3
+  * // in binary: 11111111 11111111 11111111 11101011 >> 3 ==
+  * //            11111111 11111111 11111111 11111101
+  * }}}
+  */
+  @deprecated("shifting a value by a `Long` argument is deprecated (except when the value is a `Long`).\nCall `toInt` on the argument to maintain the current behavior and avoid the deprecation warning.", "2.12.7")
+  def >>(x: Long): Int
+
+  /** Returns `true` if this value is equal to x, `false` otherwise. */
+  def ==(x: Byte): Boolean
+  /** Returns `true` if this value is equal to x, `false` otherwise. */
+  def ==(x: Short): Boolean
+  /** Returns `true` if this value is equal to x, `false` otherwise. */
+  def ==(x: Char): Boolean
+  /** Returns `true` if this value is equal to x, `false` otherwise. */
+  def ==(x: Int): Boolean
+  /** Returns `true` if this value is equal to x, `false` otherwise. */
+  def ==(x: Long): Boolean
+  /** Returns `true` if this value is equal to x, `false` otherwise. */
+  def ==(x: Float): Boolean
+  /** Returns `true` if this value is equal to x, `false` otherwise. */
+  def ==(x: Double): Boolean
+
+  /** Returns `true` if this value is not equal to x, `false` otherwise. */
+  def !=(x: Byte): Boolean
+  /** Returns `true` if this value is not equal to x, `false` otherwise. */
+  def !=(x: Short): Boolean
+  /** Returns `true` if this value is not equal to x, `false` otherwise. */
+  def !=(x: Char): Boolean
+  /** Returns `true` if this value is not equal to x, `false` otherwise. */
+  def !=(x: Int): Boolean
+  /** Returns `true` if this value is not equal to x, `false` otherwise. */
+  def !=(x: Long): Boolean
+  /** Returns `true` if this value is not equal to x, `false` otherwise. */
+  def !=(x: Float): Boolean
+  /** Returns `true` if this value is not equal to x, `false` otherwise. */
+  def !=(x: Double): Boolean
+
+  /** Returns `true` if this value is less than x, `false` otherwise. */
+  def <(x: Byte): Boolean
+  /** Returns `true` if this value is less than x, `false` otherwise. */
+  def <(x: Short): Boolean
+  /** Returns `true` if this value is less than x, `false` otherwise. */
+  def <(x: Char): Boolean
+  /** Returns `true` if this value is less than x, `false` otherwise. */
+  def <(x: Int): Boolean
+  /** Returns `true` if this value is less than x, `false` otherwise. */
+  def <(x: Long): Boolean
+  /** Returns `true` if this value is less than x, `false` otherwise. */
+  def <(x: Float): Boolean
+  /** Returns `true` if this value is less than x, `false` otherwise. */
+  def <(x: Double): Boolean
+
+  /** Returns `true` if this value is less than or equal to x, `false` otherwise. */
+  def <=(x: Byte): Boolean
+  /** Returns `true` if this value is less than or equal to x, `false` otherwise. */
+  def <=(x: Short): Boolean
+  /** Returns `true` if this value is less than or equal to x, `false` otherwise. */
+  def <=(x: Char): Boolean
+  /** Returns `true` if this value is less than or equal to x, `false` otherwise. */
+  def <=(x: Int): Boolean
+  /** Returns `true` if this value is less than or equal to x, `false` otherwise. */
+  def <=(x: Long): Boolean
+  /** Returns `true` if this value is less than or equal to x, `false` otherwise. */
+  def <=(x: Float): Boolean
+  /** Returns `true` if this value is less than or equal to x, `false` otherwise. */
+  def <=(x: Double): Boolean
+
+  /** Returns `true` if this value is greater than x, `false` otherwise. */
+  def >(x: Byte): Boolean
+  /** Returns `true` if this value is greater than x, `false` otherwise. */
+  def >(x: Short): Boolean
+  /** Returns `true` if this value is greater than x, `false` otherwise. */
+  def >(x: Char): Boolean
+  /** Returns `true` if this value is greater than x, `false` otherwise. */
+  def >(x: Int): Boolean
+  /** Returns `true` if this value is greater than x, `false` otherwise. */
+  def >(x: Long): Boolean
+  /** Returns `true` if this value is greater than x, `false` otherwise. */
+  def >(x: Float): Boolean
+  /** Returns `true` if this value is greater than x, `false` otherwise. */
+  def >(x: Double): Boolean
+
+  /** Returns `true` if this value is greater than or equal to x, `false` otherwise. */
+  def >=(x: Byte): Boolean
+  /** Returns `true` if this value is greater than or equal to x, `false` otherwise. */
+  def >=(x: Short): Boolean
+  /** Returns `true` if this value is greater than or equal to x, `false` otherwise. */
+  def >=(x: Char): Boolean
+  /** Returns `true` if this value is greater than or equal to x, `false` otherwise. */
+  def >=(x: Int): Boolean
+  /** Returns `true` if this value is greater than or equal to x, `false` otherwise. */
+  def >=(x: Long): Boolean
+  /** Returns `true` if this value is greater than or equal to x, `false` otherwise. */
+  def >=(x: Float): Boolean
+  /** Returns `true` if this value is greater than or equal to x, `false` otherwise. */
+  def >=(x: Double): Boolean
+
+  /**
+  * Returns the bitwise OR of this value and `x`.
+  * @example {{{
+  * (0xf0 | 0xaa) == 0xfa
+  * // in binary:   11110000
+  * //            | 10101010
+  * //              --------
+  * //              11111010
+  * }}}
+  */
+  def |(x: Byte): Int
+  /**
+  * Returns the bitwise OR of this value and `x`.
+  * @example {{{
+  * (0xf0 | 0xaa) == 0xfa
+  * // in binary:   11110000
+  * //            | 10101010
+  * //              --------
+  * //              11111010
+  * }}}
+  */
+  def |(x: Short): Int
+  /**
+  * Returns the bitwise OR of this value and `x`.
+  * @example {{{
+  * (0xf0 | 0xaa) == 0xfa
+  * // in binary:   11110000
+  * //            | 10101010
+  * //              --------
+  * //              11111010
+  * }}}
+  */
+  def |(x: Char): Int
+  /**
+  * Returns the bitwise OR of this value and `x`.
+  * @example {{{
+  * (0xf0 | 0xaa) == 0xfa
+  * // in binary:   11110000
+  * //            | 10101010
+  * //              --------
+  * //              11111010
+  * }}}
+  */
+  def |(x: Int): Int
+  /**
+  * Returns the bitwise OR of this value and `x`.
+  * @example {{{
+  * (0xf0 | 0xaa) == 0xfa
+  * // in binary:   11110000
+  * //            | 10101010
+  * //              --------
+  * //              11111010
+  * }}}
+  */
+  def |(x: Long): Long
+
+  /**
+  * Returns the bitwise AND of this value and `x`.
+  * @example {{{
+  * (0xf0 & 0xaa) == 0xa0
+  * // in binary:   11110000
+  * //            & 10101010
+  * //              --------
+  * //              10100000
+  * }}}
+  */
+  def &(x: Byte): Int
+  /**
+  * Returns the bitwise AND of this value and `x`.
+  * @example {{{
+  * (0xf0 & 0xaa) == 0xa0
+  * // in binary:   11110000
+  * //            & 10101010
+  * //              --------
+  * //              10100000
+  * }}}
+  */
+  def &(x: Short): Int
+  /**
+  * Returns the bitwise AND of this value and `x`.
+  * @example {{{
+  * (0xf0 & 0xaa) == 0xa0
+  * // in binary:   11110000
+  * //            & 10101010
+  * //              --------
+  * //              10100000
+  * }}}
+  */
+  def &(x: Char): Int
+  /**
+  * Returns the bitwise AND of this value and `x`.
+  * @example {{{
+  * (0xf0 & 0xaa) == 0xa0
+  * // in binary:   11110000
+  * //            & 10101010
+  * //              --------
+  * //              10100000
+  * }}}
+  */
+  def &(x: Int): Int
+  /**
+  * Returns the bitwise AND of this value and `x`.
+  * @example {{{
+  * (0xf0 & 0xaa) == 0xa0
+  * // in binary:   11110000
+  * //            & 10101010
+  * //              --------
+  * //              10100000
+  * }}}
+  */
+  def &(x: Long): Long
+
+  /**
+  * Returns the bitwise XOR of this value and `x`.
+  * @example {{{
+  * (0xf0 ^ 0xaa) == 0x5a
+  * // in binary:   11110000
+  * //            ^ 10101010
+  * //              --------
+  * //              01011010
+  * }}}
+  */
+  def ^(x: Byte): Int
+  /**
+  * Returns the bitwise XOR of this value and `x`.
+  * @example {{{
+  * (0xf0 ^ 0xaa) == 0x5a
+  * // in binary:   11110000
+  * //            ^ 10101010
+  * //              --------
+  * //              01011010
+  * }}}
+  */
+  def ^(x: Short): Int
+  /**
+  * Returns the bitwise XOR of this value and `x`.
+  * @example {{{
+  * (0xf0 ^ 0xaa) == 0x5a
+  * // in binary:   11110000
+  * //            ^ 10101010
+  * //              --------
+  * //              01011010
+  * }}}
+  */
+  def ^(x: Char): Int
+  /**
+  * Returns the bitwise XOR of this value and `x`.
+  * @example {{{
+  * (0xf0 ^ 0xaa) == 0x5a
+  * // in binary:   11110000
+  * //            ^ 10101010
+  * //              --------
+  * //              01011010
+  * }}}
+  */
+  def ^(x: Int): Int
+  /**
+  * Returns the bitwise XOR of this value and `x`.
+  * @example {{{
+  * (0xf0 ^ 0xaa) == 0x5a
+  * // in binary:   11110000
+  * //            ^ 10101010
+  * //              --------
+  * //              01011010
+  * }}}
+  */
+  def ^(x: Long): Long
+
+  /** Returns the sum of this value and `x`. */
+  def +(x: Byte): Int
+  /** Returns the sum of this value and `x`. */
+  def +(x: Short): Int
+  /** Returns the sum of this value and `x`. */
+  def +(x: Char): Int
+  /** Returns the sum of this value and `x`. */
+  def +(x: Int): Int
+  /** Returns the sum of this value and `x`. */
+  def +(x: Long): Long
+  /** Returns the sum of this value and `x`. */
+  def +(x: Float): Float
+  /** Returns the sum of this value and `x`. */
+  def +(x: Double): Double
+
+  /** Returns the difference of this value and `x`. */
+  def -(x: Byte): Int
+  /** Returns the difference of this value and `x`. */
+  def -(x: Short): Int
+  /** Returns the difference of this value and `x`. */
+  def -(x: Char): Int
+  /** Returns the difference of this value and `x`. */
+  def -(x: Int): Int
+  /** Returns the difference of this value and `x`. */
+  def -(x: Long): Long
+  /** Returns the difference of this value and `x`. */
+  def -(x: Float): Float
+  /** Returns the difference of this value and `x`. */
+  def -(x: Double): Double
+
+  /** Returns the product of this value and `x`. */
+  def *(x: Byte): Int
+  /** Returns the product of this value and `x`. */
+  def *(x: Short): Int
+  /** Returns the product of this value and `x`. */
+  def *(x: Char): Int
+  /** Returns the product of this value and `x`. */
+  def *(x: Int): Int
+  /** Returns the product of this value and `x`. */
+  def *(x: Long): Long
+  /** Returns the product of this value and `x`. */
+  def *(x: Float): Float
+  /** Returns the product of this value and `x`. */
+  def *(x: Double): Double
+
+  /** Returns the quotient of this value and `x`. */
+  def /(x: Byte): Int
+  /** Returns the quotient of this value and `x`. */
+  def /(x: Short): Int
+  /** Returns the quotient of this value and `x`. */
+  def /(x: Char): Int
+  /** Returns the quotient of this value and `x`. */
+  def /(x: Int): Int
+  /** Returns the quotient of this value and `x`. */
+  def /(x: Long): Long
+  /** Returns the quotient of this value and `x`. */
+  def /(x: Float): Float
+  /** Returns the quotient of this value and `x`. */
+  def /(x: Double): Double
+
+  /** Returns the remainder of the division of this value by `x`. */
+  def %(x: Byte): Int
+  /** Returns the remainder of the division of this value by `x`. */
+  def %(x: Short): Int
+  /** Returns the remainder of the division of this value by `x`. */
+  def %(x: Char): Int
+  /** Returns the remainder of the division of this value by `x`. */
+  def %(x: Int): Int
+  /** Returns the remainder of the division of this value by `x`. */
+  def %(x: Long): Long
+  /** Returns the remainder of the division of this value by `x`. */
+  def %(x: Float): Float
+  /** Returns the remainder of the division of this value by `x`. */
+  def %(x: Double): Double
+
+  // Provide a more specific return type for Scaladoc
+  override def getClass(): Class[Int] = ???
+}
+
+object Int extends AnyValCompanion {
+  /** The smallest value representable as an Int. */
+  final val MinValue = java.lang.Integer.MIN_VALUE
+
+  /** The largest value representable as an Int. */
+  final val MaxValue = java.lang.Integer.MAX_VALUE
+
+  /** Transform a value type into a boxed reference type.
+   *
+   *  Runtime implementation determined by `scala.runtime.BoxesRunTime.boxToInteger`. See [[https://github.com/scala/scala src/library/scala/runtime/BoxesRunTime.java]].
+   *
+   *  @param  x   the Int to be boxed
+   *  @return     a java.lang.Integer offering `x` as its underlying value.
+   */
+  def box(x: Int): java.lang.Integer = ???
+
+  /** Transform a boxed type into a value type.  Note that this
+   *  method is not typesafe: it accepts any Object, but will throw
+   *  an exception if the argument is not a java.lang.Integer.
+   *
+   *  Runtime implementation determined by `scala.runtime.BoxesRunTime.unboxToInt`. See [[https://github.com/scala/scala src/library/scala/runtime/BoxesRunTime.java]].
+   *
+   *  @param  x   the java.lang.Integer to be unboxed.
+   *  @throws     ClassCastException  if the argument is not a java.lang.Integer
+   *  @return     the Int resulting from calling intValue() on `x`
+   */
+  def unbox(x: java.lang.Object): Int = ???
+
+  /** The String representation of the scala.Int companion object. */
+  override def toString = "object scala.Int"
+  /** Language mandated coercions from Int to "wider" types. */
+  import scala.language.implicitConversions
+  implicit def int2long(x: Int): Long = x.toLong
+  implicit def int2float(x: Int): Float = x.toFloat
+  implicit def int2double(x: Int): Double = x.toDouble
+}
+
+
+[0m2021.03.09 13:13:16 INFO  compiling hello-world (1 scala source)[0m
+[0m2021.03.09 13:13:17 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.03.09 13:13:17 INFO  time: compiled hello-world in 1.44s[0m
+[0m2021.03.09 13:13:24 INFO  Listening for transport dt_socket at address: 64752[0m
+[0m2021.03.09 13:13:24 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.03.09 13:13:24 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.03.09 13:13:25 INFO  Starting debug proxy for [HelloWorld][0m
+[0m2021.03.09 13:13:24 INFO  Trying to attach to remote debuggee VM 127.0.0.1:64752 .[0m
+[0m2021.03.09 13:13:24 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.03.09 13:13:25 INFO  Ich lebe, juhu!![0m
+[0m2021.03.09 13:13:25 INFO  Simon der Allerechte[0m
+[0m2021.03.09 13:13:25 INFO  15[0m
+[0m2021.03.09 13:13:25 INFO  Canceling debug proxy for [HelloWorld][0m
+[0m2021.03.09 13:22:13 INFO  compiling hello-world (1 scala source)[0m
+[0m2021.03.09 13:22:13 INFO  time: compiled hello-world in 0.38s[0m
+[0m2021.03.09 13:22:27 INFO  compiling hello-world (1 scala source)[0m
+[0m2021.03.09 13:22:27 INFO  time: compiled hello-world in 0.12s[0m
+[0m2021.03.09 13:22:32 INFO  compiling hello-world (1 scala source)[0m
+[0m2021.03.09 13:22:35 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.03.09 13:22:35 INFO  time: compiled hello-world in 2.3s[0m
+[0m2021.03.09 13:22:41 INFO  Listening for transport dt_socket at address: 64825[0m
+[0m2021.03.09 13:22:42 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.03.09 13:22:42 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.03.09 13:22:42 INFO  Starting debug proxy for [HelloWorld][0m
+[0m2021.03.09 13:22:41 INFO  Trying to attach to remote debuggee VM 127.0.0.1:64825 .[0m
+[0m2021.03.09 13:22:41 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.03.09 13:22:43 INFO  Ich lebe, juhu!![0m
+[0m2021.03.09 13:22:43 INFO  Simon der Allerechte[0m
+[0m2021.03.09 13:22:43 INFO  15[0m
+[0m2021.03.09 13:22:42 INFO  Canceling debug proxy for [HelloWorld][0m
+[0m2021.03.09 13:23:01 INFO  compiling hello-world (1 scala source)[0m
+[0m2021.03.09 13:23:01 INFO  time: compiled hello-world in 0.34s[0m
+[0m2021.03.09 13:23:06 INFO  compiling hello-world (1 scala source)[0m
+[0m2021.03.09 13:23:08 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.03.09 13:23:08 INFO  time: compiled hello-world in 1.98s[0m
+[0m2021.03.09 13:23:15 INFO  Listening for transport dt_socket at address: 64847[0m
+[0m2021.03.09 13:23:15 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.03.09 13:23:15 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\sohre\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.03.09 13:23:16 INFO  Starting debug proxy for [HelloWorld][0m
+[0m2021.03.09 13:23:15 INFO  Trying to attach to remote debuggee VM 127.0.0.1:64847 .[0m
+[0m2021.03.09 13:23:15 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.03.09 13:23:16 INFO  Ich lebe, juhu!![0m
+[0m2021.03.09 13:23:16 INFO  Simon der Allerechte[0m
+[0m2021.03.09 13:23:16 INFO  Die Schleife ist hier[0m
+[0m2021.03.09 13:23:16 INFO  Die Schleife ist hier[0m
+[0m2021.03.09 13:23:16 INFO  Die Schleife ist hier[0m
+[0m2021.03.09 13:23:16 INFO  Die Schleife ist hier[0m
+[0m2021.03.09 13:23:16 INFO  Die Schleife ist hier[0m
+[0m2021.03.09 13:23:16 INFO  Die Schleife ist hier[0m
+[0m2021.03.09 13:23:16 INFO  Die Schleife ist hier[0m
+[0m2021.03.09 13:23:16 INFO  Die Schleife ist hier[0m
+[0m2021.03.09 13:23:16 INFO  Die Schleife ist hier[0m
+[0m2021.03.09 13:23:16 INFO  Die Schleife ist hier[0m
+[0m2021.03.09 13:23:16 INFO  Canceling debug proxy for [HelloWorld][0m
+[0m2021.03.09 13:23:42 INFO  compiling hello-world (1 scala source)[0m
+[0m2021.03.09 13:23:43 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.03.09 13:23:43 INFO  time: compiled hello-world in 1.3s[0m
+[0m2021.03.09 13:58:06 INFO  shutting down Metals[0m
+[0m2021.03.09 13:58:07 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.03.09 13:58:07 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...

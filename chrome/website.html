@@ -1,0 +1,8 @@
+<script src="https://code.jquery.com/jquery-latest.js">
+
+setInterval(function() {
+    var lastSeen = $('.pane-header .chat-body .emojitext').last().text();
+    console.log(Math.floor(Date.now() / 1000) + ", " + lastSeen);
+  }, 1000);
+
+</script>

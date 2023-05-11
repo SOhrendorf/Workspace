@@ -14,7 +14,7 @@ Menu, Tray, Icon, shell32.dll, 147
 SetupServer()
 RunClient()
 
-; Your custom functions go here!
+; Your custom functions go here
 ; You can then call them by using the URL "localhost:42800/send/yourFunctionName"
 ; The funciton name "kill" is reserved to end the script execution.
 
